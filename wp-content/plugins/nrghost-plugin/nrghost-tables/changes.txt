@@ -1,0 +1,11 @@
+05.03.2015 - ver. 1.0.4
+   - Fixed: json-patch-duplex.js.map 404 error
+
+29.01.2015 - ver. 1.0.3
+   - Added support for VC 4.4
+
+28.07.2014 - ver. 1.0.2
+   - Added support for VC 4.3
+
+12.09.2013 - ver. 1.0.1
+   - Apostrophe fix added

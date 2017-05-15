@@ -1,0 +1,207 @@
+/**
+ *
+ * Styles for the metaboxes
+ *
+ **/
+#dynamo-post-params h3 {
+padding: 15px 10px;
+background: #85B9DE;
+color: #fff;
+}
+
+#dynamo-post-params h3:before {
+font-family: dpicomoon;
+content: "\f0ad";
+font-size: 21px;
+vertical-align: middle;
+line-height: 22px;
+margin-right: 5px;
+}
+#dynamo-post-params .handlediv:before {
+padding: 14px 10px;
+color: #fff;
+}
+
+#dynamo-post-params p[data-template] {
+	display: none;
+}
+
+
+#dynamo-post-params p[data-template].active {
+	display: block;
+}
+
+
+#dynamo-post-params p label {
+	line-height: 24px;
+}
+
+
+#dynamo-post-params p select {
+	margin-left:10px;
+}
+
+
+#dynamo-post-params p {
+	margin: 0;
+	padding: 10px 0;
+}
+
+
+#dynamo-post-params p:nth-of-type(1) {
+	border-top: none;
+}
+#dynamo-post-params .dpColor{height:33px; margin-left:10px;}
+.col_onehalf {width:45%;margin-right:20px!important;float:left;}
+.col_onethird {width:30%;margin-right:20px!important;float:left;}
+.col_twothird {width:60%;margin-right:20px!important;float:left;}
+.col_onefourth {width:22%;margin-right:20px!important;float:left;}
+.col_onefifth {width:20%;margin-right:0px!important;float:left;}
+.col_onehalf.last, .col_onethird.last, .col_onefourth, .col_onefifth {clear:right;}
+.clearboth{clear:both;}
+.width100 {width:100%;}
+.subsection-title {font-size:14px; padding:7px 10px!important; background:#e6e6e6;clear:both; font-weight:600;}
+.subsection-title.green {background-color:#81EBDE; }
+/**
+ *
+ * Styles for the admin custom post types
+ *
+ **/
+#adminmenu .menu-icon-slide div.wp-menu-image:before {
+ content: "\f233";
+}
+#adminmenu .menu-icon-portfolio div.wp-menu-image:before {
+ content: "\f322";
+}
+.clearboth { clear:both;}
+.previewicon {font-size:20px;padding-left:20px;}
+.megamenu-options-togle {width:190px;}
+.megamenu-options-togle span {font-size:11px;}
+.megamenu-options-togle span:after {
+	font-family: "dpicomoon";
+	content: '\e026';
+	float:right;
+}
+.megamenu-options-togle.active span:after {
+content: '\e017';
+}
+.mega-menu-options-panel {display:none;}
+.post-type-sidebar #edit-slug-box {display:none;}
+
+/** Icons for Tiny MCE editor **/
+i.mce-i-dp_style:before, .mceIcon.mce_dp_style:before {
+	font-family: "dpicomoon";
+	content: '\e034';
+	color:#0074A2;
+	font-size:23px; }
+i.mce-i-dp-columns:before, .mceIcon.mce_dp_columns:before {
+	font-family: "dpicomoon";
+	content: '\e03a';
+	color:#0074A2;
+	font-size:23px; 
+	}
+
+i.mce-i-dp-button:before, .mceIcon.mce_dp_button:before {
+	font-family: "dpicomoon";
+	content: '\e06c';
+	color:#0074A2;
+	font-size:21px; 
+	 }
+i.mce-i-dp-button, .mceIcon.mce_dp_button {
+	-moz-transform: rotate(-15deg);
+-webkit-transform: rotate(-15deg);
+-o-transform: rotate(-15deg);
+-ms-transform: rotate(-15deg);
+transform: rotate(-15deg);
+	 }
+
+i.mce-i-dp-icon:before, .mceIcon.mce_dp_icon:before {
+	font-family: "dpicomoon";
+	content: '\e028';
+	color:#0074A2; }
+i.mce-i-dp-map:before, .mceIcon.mce_dp_map:before {
+	font-family: "dpicomoon";
+	content: '\e04d';
+	color:#0074A2; }
+i.mce-i-dp-youtube:before, .mceIcon.mce_dp_youtube:before {
+	font-family: "dpicomoon";
+	content: '\55';
+	color:#0074A2; }
+i.mce-i-dp-vimeo:before, .mceIcon.mce_dp_vimeo:before {
+	font-family: "dpicomoon";
+	content: '\56';
+	color:#0074A2; }
+
+.dp_import_load{
+	display:none;
+	padding-top:10px;
+}
+.dynamo-progress-bar-wrapper {
+	margin: 20px 0;
+}
+.progress-bar-message {padding:15px 0}
+.notification {
+font-size:14px;
+line-height:18px;
+margin-bottom:15px;
+position:relative;
+padding:13px 40px 13px 18px;
+border-radius:2px;
+box-shadow:0 1px 1px 0 rgba(0,0,0,0.03);
+}
+
+.notification p {
+margin:0;
+line-height:24px;
+}
+
+.notification span {
+font-weight:600;
+}
+
+.notification i {
+font-size:18px;
+padding-right:10px;
+}
+
+.notification.success,.notification.success strong {
+background-color:#EBF6E0;
+color:#5f9025;
+border:1px solid #b3dc82;
+}
+
+.notification.error,.notification.error strong {
+background-color:#ffe9e9;
+color:#de5959;
+border:1px solid #fbc4c4;
+}
+
+.notification.warning,.notification.warning strong {
+background-color:#FBFADD;
+color:#8f872e;
+border:1px solid #ded58a;
+}
+
+.notification.notice,.notification.notice strong {
+background-color:#E9F7FE;
+color:#5091b2;
+border:1px solid #b6d7e8;
+}
+
+.notification strong {
+border:none!important;
+}
+
+.notification.success .close,.notification.error .close,.notification.warning .close,.notification.notice .close {
+padding:0 9px;
+position:absolute;
+right:0;
+top:22px;
+display:block;
+height:8px;
+width:8px;
+cursor:pointer;
+}
+
+.no-margin {margin:0!important;}
+.margin-0-20 {margin:0 20px 0 0 !important}

@@ -1,0 +1,21 @@
+.wpb_vc_param_value.content.table_param {
+	display: none;
+}
+
+/* 
+a#vc_templates-editor-button, 
+li#customize-control-display_header_text, 
+li#accordion-section-colors, 
+li#accordion-section-header_image, 
+li#accordion-section-background_image {
+	display: none !important;
+}
+
+.wpb_nrghost_service.wpb_content_element.wpb_sortable {
+	width: 33.3333%;
+	float: left;
+}
+
+.wpb_nrghost_service.wpb_content_element.wpb_sortable:nth-child(3n+4) {
+	clear: left;
+}*/
