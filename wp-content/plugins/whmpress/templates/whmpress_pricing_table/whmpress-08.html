@@ -1,0 +1,30 @@
+<div class="whmpress whmpress_pricing_table eight {$featured}">
+	<div class="pricing_table_icon">
+		<div class="holder">
+			<i class="fa {$sub_icon}"></i>
+		</div>
+	</div>
+	<div class="pricing_table_heading">
+		<div class="holder">
+			<h2>
+				{$product_name} - <span class="currency">{$prefix}</span><span class="amount">{$amount}</span>{if
+				$fraction ne ""}<span class="decimal">{$decimal}</span><span class="fraction">{$fraction}</span>{/if}
+			</h2>
+		</div>
+	</div>
+	<div class="pricing_table_features">
+		<div class="holder">
+			{$product_description}
+		</div>
+	</div>
+	<div class="pricing_table_combo">
+		<div class="holder">
+			{$product_order_combo}
+		</div>
+	</div>
+	<div class="pricing_table_submit">
+		<div class="holder">
+			{$product_order_button}
+		</div>
+	</div>
+</div>  <!-- /.price-table -->

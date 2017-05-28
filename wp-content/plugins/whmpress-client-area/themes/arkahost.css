@@ -1,0 +1,69 @@
+/************************************************/
+/*-----------Custom Css by creativeON-----------*/
+/************************************************/
+.whmp {
+  /*----General Css----*/
+  /*----Top-bar fix----*/
+  /*----Navbar Styling----*/
+}
+.whmp .container {
+  max-width: 100%;
+}
+.whmp span.hidden-xs {
+  display: inline !important;
+}
+.whmp section#header {
+  background: none;
+}
+.whmp #nav {
+  max-width: 100%;
+  overflow: visible;
+  padding: 0;
+  border-top: 1px solid #ddd;
+}
+.whmp #nav ul.nav.navbar-main {
+  margin-bottom: 0;
+}
+.whmp .navbar-main,
+.whmp section#main-menu {
+  background: #fff;
+  color: #000;
+}
+.whmp .navbar-main .navbar-nav > li > a {
+  color: #000;
+}
+.whmp .navbar-main .navbar-nav > li > a:hover,
+.whmp .navbar-main .navbar-nav > li > a:focus,
+.whmp .navbar-main .navbar-nav > .active > a,
+.whmp .navbar-main .navbar-nav > .active > a:hover,
+.whmp .navbar-main .navbar-nav > .active > a:focus,
+.whmp .navbar-main .navbar-nav > .open > a,
+.whmp .navbar-main .navbar-nav > .open > a:hover,
+.whmp .navbar-main .navbar-nav > .open > a:focus {
+  color: #9eca45;
+}
+@media (min-width: 980px) {
+  .whmp li.dropdown:hover > ul.dropdown-menu {
+    display: block !important;
+  }
+  .whmp .dropdown-menu .nav-divider {
+    display: none;
+  }
+  .whmp .dropdown-menu > li > a,
+  .whmp .navbar-main .dropdown-menu > li > a {
+    color: #000000;
+  }
+  .whmp .dropdown-menu > li > a:focus,
+  .whmp .navbar-main .dropdown-menu > li > a:hover {
+    color: #9eca45;
+    background: #ddd;
+  }
+}
+.whmp .home-shortcuts {
+  padding-top: 10px;
+  background: #86c724;
+}
+.whmp .home-shortcuts li,
+.whmp .home-shortcuts li:first-child {
+  border-color: #699c1c;
+}

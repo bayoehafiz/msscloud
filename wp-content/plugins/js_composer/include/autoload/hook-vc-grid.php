@@ -207,11 +207,11 @@ class Vc_Hooks_Vc_Grid implements Vc_Vendor_Interface {
 	 * @output/@return string - grid data for ajax request.
 	 */
 	public function getGridDataForAjax() {
-		$tag = vc_request_param( 'tag' );
+		$tag = str_replace( '.', '', vc_request_param( 'tag' ) );
 		$allowed = apply_filters( 'vc_grid_get_grid_data_access', vc_verify_public_nonce() && $tag, $tag );
 		if ( $allowed ) {
 			$shortcode_fishbone = visual_composer()->getShortCode( $tag );
-			if ( is_object( $shortcode_fishbone ) ) {
+			if ( is_object( $shortcode_fishbone ) && vc_get_shortcode( $tag ) ) {
 				/** @var $vc_grid WPBakeryShortcode_Vc_Basic_Grid */
 				$vc_grid = $shortcode_fishbone->shortcodeClass();
 				if ( method_exists( $vc_grid, 'isObjectPageable' ) && $vc_grid->isObjectPageable() && method_exists( $vc_grid, 'renderAjax' ) ) {

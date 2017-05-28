@@ -1,0 +1,88 @@
+/************************************************/
+/*-----------Custom Css by creativeON-----------*/
+/************************************************/
+.whmp {
+    /*----General Css----*/
+    .container {
+        max-width: 100%;
+    }
+    /*----Top-bar fix----*/
+    span.hidden-xs {
+        display: inline !important;
+    }
+    section#header {
+        background: none;
+    }
+
+    /*----Navbar Styling----*/
+    #nav {
+        max-width: 100%;
+        overflow: visible;
+        padding: 0;
+        background: #232A31;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 1;
+        #bs-example-navbar-collapse-1 {
+            padding: 0;
+        }
+
+    }
+    .navbar-main, section#main-menu {
+    }
+    .navbar-main .navbar-nav > li > a {
+    }
+    .navbar-main .navbar-nav > li > a:hover,
+    .navbar-main .navbar-nav > li > a:focus,
+    .navbar-main .navbar-nav > .active > a,
+    .navbar-main .navbar-nav > .active > a:hover,
+    .navbar-main .navbar-nav > .active > a:focus,
+    .navbar-main .navbar-nav > .open > a,
+    .navbar-main .navbar-nav > .open > a:hover,
+    .navbar-main .navbar-nav > .open > a:focus {
+        background: 0;
+        color: #2CC76A;
+    }
+    @media (min-width: 980px) {
+        #nav {
+            height: 38px;
+        }
+        .navbar .nav {
+            padding: 0 12px;
+        }
+        li.dropdown:hover > ul.dropdown-menu {
+            display: block !important;
+        }
+        .dropdown-menu {
+            .nav-divider {
+                display: none;
+            }
+        }
+        .dropdown-menu > li > a,
+        .navbar-main .dropdown-menu > li > a {
+            color: #333;
+            font-weight: bold;
+        }
+        .dropdown-menu > li > a:focus,
+        .navbar-main .dropdown-menu > li > a:hover {
+            color: #333;
+            background: #e1e1e1;
+        }
+    }
+
+    .home-shortcuts {
+        background: #232A31;
+        p, p.lead {
+            color: #fff;
+        }
+    }
+
+    .home-shortcuts li a {
+        color: #fff;
+    }
+
+    .home-shortcuts li,
+    .home-shortcuts li:first-child{
+        border-color: darken(#232A31, 10%);
+    }
+}

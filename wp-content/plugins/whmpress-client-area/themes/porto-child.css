@@ -1,0 +1,89 @@
+/************************************************/
+/*-----------Custom Css by creativeON-----------*/
+/************************************************/
+.whmp {
+  /*----General Css----*/
+  /*----Top-bar fix----*/
+  /*----Navbar Styling----*/
+}
+.whmp .container {
+  max-width: 100%;
+}
+.whmp span.hidden-xs {
+  display: inline !important;
+}
+.whmp section#header {
+  background: none;
+}
+.whmp #nav {
+  max-width: 100%;
+  overflow: visible;
+}
+.whmp .navbar-main,
+.whmp section#main-menu {
+  background: #ffffff;
+}
+.whmp #bs-example-navbar-collapse-1 {
+  padding: 5px 0;
+}
+.whmp .navbar-main .navbar-nav > li > a {
+  color: #0088cc;
+  border-radius: 4px;
+}
+.whmp .navbar-main .navbar-nav > li > a:hover,
+.whmp .navbar-main .navbar-nav > li > a:focus,
+.whmp .navbar-main .navbar-nav > .active > a,
+.whmp .navbar-main .navbar-nav > .active > a:hover,
+.whmp .navbar-main .navbar-nav > .active > a:focus,
+.whmp .navbar-main .navbar-nav > .open > a,
+.whmp .navbar-main .navbar-nav > .open > a:hover,
+.whmp .navbar-main .navbar-nav > .open > a:focus {
+  color: #fff;
+  background-color: #0088cc;
+}
+@media (min-width: 980px) {
+  .whmp li.dropdown:hover > ul.dropdown-menu {
+    display: block !important;
+  }
+  .whmp .dropdown-menu {
+    background: #0088cc;
+    padding: 4px 0 0;
+    border-radius: 4px;
+    border: 0;
+  }
+  .whmp .dropdown-menu .nav-divider {
+    display: none;
+  }
+  .whmp .dropdown-menu > li,
+  .whmp .navbar-main .dropdown-menu > li {
+    padding: 5px;
+    background: #fff;
+  }
+  .whmp .dropdown-menu > li a,
+  .whmp .navbar-main .dropdown-menu > li a {
+    background: #fff;
+    color: #999;
+    margin-bottom: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .whmp .dropdown-menu > li a:focus,
+  .whmp .navbar-main .dropdown-menu > li a:focus,
+  .whmp .dropdown-menu > li a:hover,
+  .whmp .navbar-main .dropdown-menu > li a:hover {
+    background: #f4f4f4;
+    color: #999;
+  }
+}
+.whmp .home-shortcuts li a {
+  text-align: center;
+}
+.whmp .home-shortcuts {
+  background: #0088cc;
+}
+.whmp .home-shortcuts li {
+  border-color: #006699;
+}
+.whmp .home-shortcuts li:first-child {
+  border-color: #006699;
+}

@@ -1,0 +1,76 @@
+/************************************************/
+/*-----------Custom Css by creativeON-----------*/
+/************************************************/
+.whmp {
+    /*----General Css----*/
+    .container {
+        max-width: 100%;
+    }
+    /*----Top-bar fix----*/
+    span.hidden-xs {
+        display: inline !important;
+    }
+    section#header {
+        background: none;
+    }
+
+    /*----Navbar Styling----*/
+    #nav {
+        max-width: 100%;
+        overflow: visible;
+
+    }
+    .navbar-main, section#main-menu {
+        background: #ffffff;
+        border-top: 1px solid #e6e6e6;
+    }
+    .navbar-main .navbar-nav > li > a {
+        color: #666666;
+    }
+    .navbar-main .navbar-nav > li > a:hover,
+    .navbar-main .navbar-nav > li > a:focus,
+    .navbar-main .navbar-nav > .active > a,
+    .navbar-main .navbar-nav > .active > a:hover,
+    .navbar-main .navbar-nav > .active > a:focus,
+    .navbar-main .navbar-nav > .open > a,
+    .navbar-main .navbar-nav > .open > a:hover,
+    .navbar-main .navbar-nav > .open > a:focus {
+        color: #fb4400;
+    }
+    @media (min-width: 980px) {
+        li.dropdown:hover > ul.dropdown-menu {
+            display: block !important;
+        }
+        .dropdown-menu {
+            background: #7b7b84;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            .nav-divider {
+                display: none;
+            }
+        }
+        .dropdown-menu > li > a,
+        .navbar-main .dropdown-menu > li > a {
+            background: #94949c;
+            color: #ffffff;
+            margin-bottom: 1px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        .dropdown-menu > li > a:focus,
+        .navbar-main .dropdown-menu > li > a:hover {
+            background: #94949c;
+            opacity: 0.75;
+        }
+    }
+    .home-shortcuts li a {
+        text-align: center;
+    }
+
+
+    .home-shortcuts {background: #fb4400;}
+
+
+    .home-shortcuts li {border-color: #555}
+    .home-shortcuts li:first-child {border-color: #555}
+}

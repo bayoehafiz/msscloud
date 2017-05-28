@@ -1,0 +1,77 @@
+/************************************************/
+/*-----------Custom Css by creativeON-----------*/
+/************************************************/
+.whmp {
+    /*----General Css----*/
+    .container {
+        max-width: 100%;
+    }
+    /*----Top-bar fix----*/
+    span.hidden-xs {
+        display: inline !important;
+    }
+    section#header {
+        background: none;
+    }
+
+    /*----Navbar Styling----*/
+    #nav {
+        max-width: 100%;
+        overflow: visible;
+        padding: 0;
+        border-top: 1px solid #ddd;
+        ul.nav.navbar-main {
+            margin-bottom: 0;
+        }
+    }
+    .navbar-main, section#main-menu {
+        background: #fff;
+        color: #000;
+    }
+    .navbar-main .navbar-nav > li > a {
+        color: #000;
+    }
+    .navbar-main .navbar-nav > li > a:hover,
+    .navbar-main .navbar-nav > li > a:focus,
+    .navbar-main .navbar-nav > .active > a,
+    .navbar-main .navbar-nav > .active > a:hover,
+    .navbar-main .navbar-nav > .active > a:focus,
+    .navbar-main .navbar-nav > .open > a,
+    .navbar-main .navbar-nav > .open > a:hover,
+    .navbar-main .navbar-nav > .open > a:focus {
+        color: #9eca45;
+    }
+    @media (min-width: 980px) {
+        li.dropdown:hover > ul.dropdown-menu {
+            display: block !important;
+        }
+        .dropdown-menu {
+            .nav-divider {
+                display: none;
+            }
+        }
+        .dropdown-menu > li > a,
+        .navbar-main .dropdown-menu > li > a {
+            color: #000000;
+        }
+        .dropdown-menu > li > a:focus,
+        .navbar-main .dropdown-menu > li > a:hover {
+            color: #9eca45;
+            background: #ddd;
+        }
+    }
+    .home-shortcuts li a {
+    }
+
+
+    .home-shortcuts {
+        padding-top: 10px;
+        background: #86c724;
+    }
+
+
+    .home-shortcuts li,
+    .home-shortcuts li:first-child {
+        border-color: darken(#86c724, 10%);
+    }
+}

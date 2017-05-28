@@ -1,0 +1,183 @@
+/***********************************************************
+      Section: Definitions
+***********************************************************/
+@textColor: #333;
+@borderRadius: 4px;
+@baseColor: #fb4400;
+@btnBg: @baseColor;
+@btnBgHvr: darken(@btnBg, 10%);
+
+.boxShadow {
+    box-shadow: 0 0 0 4px #eee inset, 0 0 0 5px #ddd inset;
+    border: 6px solid transparent;
+    border-radius: (@borderRadius * 5);
+}
+
+.inputStyles {
+    outline: 0;
+    padding: 8px 10px;
+    border-radius: @borderRadius;
+    border: 2px solid #ddd;
+}
+
+.btnStyles {
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: @borderRadius;
+    text-align: center;
+    height: auto;
+    background: @btnBg;
+    transition: background .5s ease-in-out;
+    &:hover {
+        background: @btnBgHvr;
+    }
+}
+
+/***********************************************************
+      Section: General Styling
+***********************************************************/
+.wca_container {
+    color: @textColor;
+    max-width: 100%;
+    font-size: 16px;
+    line-height: 1.4;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    *, *:before, *:after, input[type="search"] {
+        box-sizing: border-box;
+    }
+    a {
+        color: @btnBg;
+        text-decoration: none;
+        :hover {
+            color: @btnBgHvr
+        }
+    }
+    button,
+    a.whmpress-btn,
+    a.buy-button,
+    a.www-button,
+    a.whois-button,
+    input[type="submit"] {
+        .btnStyles;
+    }
+    input[type="radio"], input[type="checkbox"] {
+        vertical-align: middle;
+        margin: 0;
+    }
+    input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]), select, textarea {
+        .inputStyles;
+    }
+    input[type="search"] {
+        -webkit-appearance: textfield;
+        -moz-appearance: textfield;
+    }
+}
+/***********************************************************
+      Section: WCA Drop-Down
+***********************************************************/
+.wca_dropdown_outer {
+	position: relative;
+    .wca_dropdown_inner {
+	    float: left;
+	    position: absolute;
+	    top: 100%;
+	    margin-top: 1px;
+	    display: none;
+	    z-index: 9999;
+	    background: white;
+    }
+    &.active {
+        .wca_dropdown_inner {
+            display: block;
+        }
+    }
+}
+/***********************************************************
+      Section: WCA Modal Container
+***********************************************************/
+.wca_modal_container {
+	.wca_modal {
+		display: none;
+		z-index: 99;
+		position: fixed;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		background: rgba(0,0,0,0.2);
+	}
+	.wca_modal_content {
+		background: white;
+		min-height: 250px;
+		max-width: 640px;
+		width: 90%;
+		left: 0;
+		right: 0;
+		margin: 50px auto 0;
+		position: absolute;
+		top: -100%;
+		.wca_modal_close {
+			position: absolute;
+			right: 0;
+			top: 0;
+			cursor: pointer;
+			width: 40px;
+			height: 40px;
+			line-height: 40px;
+			font-size: 24px;
+			font-weight: bold;
+			color: black;
+			text-align: center;
+		}
+	}
+	&.active {
+	}
+}
+/***********************************************************
+      Section: WCA Login Form
+***********************************************************/
+.wca_login_form {
+	.boxShadow;
+	max-width: 480px;
+	min-width: 450px;
+	padding: 50px 20px 30px;
+	margin-left: auto;
+	margin-right: auto;
+	form {
+		div {
+			margin-bottom: 20px;
+		}
+		label, input {
+			display: block;
+			width: 100%;
+		}
+		button {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+	.wca_loading {
+		display: none !important;
+	}
+}
+.wca_modal_container, .wca_dropdown_outer {
+	.wca_login_form {
+		border: 0;
+		box-shadow: none;
+	}
+}
+.wca_dropdown_outer {
+	.wca_login_form {
+		padding: 15px 0;
+		width: 150px;
+		min-width: 10px;
+		text-align: left;
+	}
+}
+
+

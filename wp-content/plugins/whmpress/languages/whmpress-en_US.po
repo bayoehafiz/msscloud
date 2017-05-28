@@ -1,0 +1,2283 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: WHMpress\n"
+"Language: en-us\n"
+
+#. wpml-name: b357b524e740bc85b9790a0712d84a30
+#: } else {
+#: $str = '<form method="post" action="'.WHMPress::get_whmcs_url("loginurl").'">'."\n";
+#: $str .= '<div><label>'.__("Email address",'whmpress').'</label><input placeholder="'.__("Email address",'whmpress').'" type="text" name="username" /></div>'."\n";
+msgid "Email address"
+msgstr "Email address"
+
+#. wpml-name: dc647eb65e6711e155375218212b3964
+#: $str = '<form method="post" action="'.WHMPress::get_whmcs_url("loginurl").'">'."\n";
+#: $str .= '<div><label>'.__("Email address",'whmpress').'</label><input placeholder="'.__("Email address",'whmpress').'" type="text" name="username" /></div>'."\n";
+#: $str .= '<div><label>'.__("Password",'whmpress').'</label><input placeholder="'.__("Password",'whmpress').'" type="password" name="password" /></div>'."\n";
+msgid "Password"
+msgstr "Password"
+
+#. wpml-name: 793b899a4f8fdf8109b9b0e71aa0f28e
+#: $Dom = $domain;
+#: #if (isset($_POST["www_link"]) && strtolower($_POST["www_link"])=="yes") {
+#: $www_link = "<a class="www-button" href='http://{$Dom}' target='_blank'>".__("WWW","whmpress")."</a>";
+msgid "WWW"
+msgstr "WWW"
+
+#. wpml-name: a719cd29bc683c1d1ee601b640a231bf
+#: #if (isset($_POST["whois_link"]) && strtolower($_POST["whois_link"])=="yes") {
+#: //$whois_link = "<a class='whois-button' href='javascript:;' onclick='window.open("".WHMP_PLUGIN_URL."/whois.php?domain={$Dom}","whmpwin","width=600,height=600,toolbar=no,location=no,directories=no,status=no,menubar=no,resizable=0")'>WHOIS</a>";
+#: $whois_link = "<a class='whois-button' href='".WHMP_PLUGIN_URL."/whois.php?domain={$Dom}' target='_blank'>".__("WHOIS","whmpress")."</a>";
+msgid "WHOIS"
+msgstr "WHOIS"
+
+#. wpml-name: fb5612447fe4bd49d18c15a7cf09db50
+#: $checked2 = "";
+#: 
+#: $ientered = __("I entered fully qualified names","whmpress");
+msgid "I entered fully qualified names"
+msgstr "I entered fully qualified names"
+
+#. wpml-name: 428147101967a4d602cd03d23590d96b
+#: <p>
+#: <b>WHMPress <?php _e("Error", "whmpress") ?></b>
+#: <?php _e("WHMCS is not Synced", "whmpress") ?> <a href="admin.php?page=whmp-sync"><?php _e("Please Sync WHMCS", "whmpress") ?></a>.
+msgid "WHMCS is not Synced"
+msgstr "WHMCS is not Synced."
+
+#. wpml-name: bfdf2f7dd4dcf9fbebef19dadd570746
+#: <p>
+#: <b>WHMPress <?php _e("Error", "whmpress") ?></b>
+#: <?php _e("WHMCS is not Synced", "whmpress") ?> <a href="admin.php?page=whmp-sync"><?php _e("Please Sync WHMCS", "whmpress") ?></a>.
+msgid "Please Sync WHMCS"
+msgstr "Please Sync WHMCS"
+
+#: 
+msgid "WHMCS Client Area URL"
+msgstr "WHMCS Client Area URL"
+
+#: 
+msgid "Where you have placed [whmpress_client_area] shortcode"
+msgstr "Where you have placed [whmpress_client_area] shortcode"
+
+#: 
+msgid "How to show images"
+msgstr "How to show images"
+
+#: 
+msgid "Direct"
+msgstr "Direct"
+
+#: 
+msgid "How to show javascript files"
+msgstr "How to show javascript files"
+
+#: 
+msgid "Through Client Area"
+msgstr "Through Client Area"
+
+#. wpml-name: fde31686817fe5029025586d51b35861
+#: <table class="fancy" style="width: 100%;">
+#: <tr>
+#: <th colspan="2"><?php _e("WordPress", "whmpress") ?></th>
+msgid "WordPress"
+msgstr "WordPress"
+
+#: 
+msgid "Google"
+msgstr "Google"
+
+#: 
+msgid "Use WHMCS css"
+msgstr "Use WHMCS css"
+
+#. wpml-name: bafd7322c6e97d25b6299b5d6fe8920b
+#: <tr>
+#: <td class="row-title"><?php _e("WordPress Multisite", "whmpress") ?></td>
+#: <td><?php if ( is_multisite() ) echo __( 'Yes', 'whmpress' ); else echo __( 'No', 'whmpress' ); ?></td>
+msgid "No"
+msgstr "No"
+
+#. wpml-name: 93cba07454f06a4a960172bbd6e2a435
+#: <tr>
+#: <td class="row-title"><?php _e("WordPress Multisite", "whmpress") ?></td>
+#: <td><?php if ( is_multisite() ) echo __( 'Yes', 'whmpress' ); else echo __( 'No', 'whmpress' ); ?></td>
+msgid "Yes"
+msgstr "Yes"
+
+#: 
+msgid "Patch Account Dropdown Problem (Only select if drop down does not works)"
+msgstr "Patch Account Dropdown Problem (Only select if drop down does not works)"
+
+#: 
+msgid "Remove Copyright and Language bar"
+msgstr "Remove Copyright and Language bar"
+
+#: 
+msgid "Remove Breadcrumb"
+msgstr "Remove Breadcrumb"
+
+#: 
+msgid "Remove Powered by WHMCS link"
+msgstr "Remove Powered by WHMCS link"
+
+#: 
+msgid "Removing cached data"
+msgstr "Removing cached data"
+
+#. wpml-name: 16bfbf9c462762cf1cba4134ec53c504
+#: <div class="full_page_loader">
+#: <div class="whmp_loader"><?php _e("Loading", "whmpress") ?>...</div>
+msgid "Loading"
+msgstr "Loading"
+
+#. wpml-name: 2938c7f7e560ed972f8a4f68e80ff834
+#: <div class="wrap">
+#: <h2 class="nav-tab-wrapper">
+#: <a class="nav-tab" href="<?php echo admin_url() ?>admin.php?page=whmp-dashboard"><?php echo __('Dashboard','whmpress');?></a>
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#. wpml-name: 74b2b3aa6df6935e8bbf500a1b8150ed
+#: <?php else: ?>
+#: <div style="display: none;" id="div1">
+#: <h3><?php _e("Verified Product", "whmpress") ?></h3>
+msgid "Verified Product"
+msgstr "Verified Product"
+
+#. wpml-name: 56fd51295e732c9db259ea529e0a6a95
+#: <h3><?php _e("Verified Product", "whmpress") ?></h3>
+#: <p style="color:#1B6B34;font-weight:bold">
+#: <?php _e("Congratulation! Your product is verified with us", "whmpress") ?>
+msgid "Congratulation! Your product is verified with us"
+msgstr "Congratulation! Your product is verified with us."
+
+#. wpml-name: aeee19a94dde55606964253ce0c9674d
+#: </div>
+#: <div id="div2">
+#: <h3><?php _e("Verify your purchase", "whmpress") ?></h3>
+msgid "Verify your purchase"
+msgstr "Verify your purchase"
+
+#. wpml-name: 419c1a1010d86c94f64881234445a8eb
+#: <table style="width:100%">
+#: <tr>
+#: <td colspan="3"><?php _e("Email required for providing support for this product", "whmpress") ?></td>
+msgid "Email required for providing support for this product"
+msgstr "Email address required for providing support for this product"
+
+#. wpml-name: 2c20ef4efc28233813b9563954d34264
+#: <tr>
+#: <td><input required="required" style="width:100%;" type="email" id="femail" name="email" placeholder="<?php _e("Email address","whmpress") ?>" value="<?php echo get_option("admin_email") ?>" /></td>
+#: <td><input required="required" style="width:100%;" type="text" id="fpurchase_code" name="purchase_code" placeholder="<?php _e("Purchase Code", "whmpress") ?>" /></td>
+msgid "Purchase Code"
+msgstr "Purchase Code"
+
+#. wpml-name: 5a750f86ef41f22f852c43351e3ff383
+#: <td><input required="required" style="width:100%;" type="email" id="femail" name="email" placeholder="<?php _e("Email address","whmpress") ?>" value="<?php echo get_option("admin_email") ?>" /></td>
+#: <td><input required="required" style="width:100%;" type="text" id="fpurchase_code" name="purchase_code" placeholder="<?php _e("Purchase Code", "whmpress") ?>" /></td>
+#: <td><button type="button" onclick="Verify();" style="width:100%;" class="button button-primary"><?php _e("Verify","whmpress") ?></button></td>
+msgid "Verify"
+msgstr "Verify"
+
+#. wpml-name: 0db377921f4ce762c62526131097968f
+#: <div id="whmp-tabs" class="tab-container">
+#: <ul class='etabs'>
+#: <li class='tab'><a href='#general'><?php _e("General", "whmpress") ?></a></li>
+msgid "General"
+msgstr "General"
+
+#. wpml-name: b81099fb73deb79ba68015015ade7283
+#: <div>
+#: <h3><?php _e("General", "whmpress") ?></h3>
+#: <p><?php _e("Watch this video to quickly learn about the use of WHMpress", "whmpress") ?></p>
+msgid "Watch this video to quickly learn about the use of WHMpress"
+msgstr "Watch this video to quickly learn about the use of WHMpress"
+
+#. wpml-name: 5fcc740ee31b8f7f73be4a84065d39f6
+#: <h3><?php _e("General", "whmpress") ?></h3>
+#: <p><?php _e("Watch this video to quickly learn about the use of WHMpress", "whmpress") ?></p>
+#: <p><a href="https://whmpress.com/documentation/#document-4" target="_blank" class="button button-primary"><?php _e("Introduction Tour", "whmpress") ?></a></p>
+msgid "Introduction Tour"
+msgstr "Introduction Tour"
+
+#. wpml-name: 14a992c09b62fdfbf904b89d45a08a04
+#: <h3><?php _e("Reset WHMpress", "whmpress") ?></h3>
+#: <p style="color: #CC0000;"><?php _e("If you want to reset all WHMpress as it was newly installed, press this button.", "whmpress") ?></p>
+#: <p style="text-align: right;"><button <?php if (!WHMPress::WHMpress_synced()) echo 'disabled="disabled"' ?> onclick="Reset()" class="button button-red"><?php _e("Reset WHMpress", "whmpress") ?></button></p>
+msgid "Reset WHMpress"
+msgstr "Reset WHMpress"
+
+#: 
+msgid "If you want to reset all WHMpress as it was newly installed, press this button"
+msgstr "If you want to reset all WHMpress as it was newly installed, press this button."
+
+#. wpml-name: 47d8ee65ba107916b5a5d0c1697dfab3
+#: <?php else: ?>
+#: <div>
+#: <h3><?php _e("System Info", "whmpress") ?></h3>
+msgid "System Info"
+msgstr "System Info"
+
+#. wpml-name: e7b47c58815acf1d3afa59a84b5db7fb
+#: </tr>
+#: <tr>
+#: <td class="row-title"><?php _e("Company Name", "whmpress") ?></td>
+msgid "Company Name"
+msgstr "Company Name"
+
+#. wpml-name: 34b6cd75171affba6957e308dcbd92be
+#: </tr>
+#: <tr>
+#: <td class="row-title"><?php _e("Version", "whmpress") ?></td>
+msgid "Version"
+msgstr "Version"
+
+#. wpml-name: 4994a8ffeba4ac3140beb89e8d41f174
+#: <strong>WHMCS <?php _e("Version", "whmpress") ?></strong>: <?php echo $wpdb->get_var("SELECT `value` FROM `".whmp_get_configuration_table_name()."` WHERE `setting`='Version'"); ?><br />
+#: <strong><?php _e("Company Name", "whmpress") ?></strong>: <?php echo $wpdb->get_var("SELECT `value` FROM `".whmp_get_configuration_table_name()."` WHERE `setting`='CompanyName'"); ?><br />
+#: <strong><?php _e("Language", "whmpress") ?></strong>: <?php echo $wpdb->get_var("SELECT `value` FROM `".whmp_get_configuration_table_name()."` WHERE `setting`='Language'"); ?><br />
+msgid "Language"
+msgstr "Language"
+
+#. wpml-name: ce8ae9da5b7cd6c3df2929543a9af92d
+#: <strong><?php _e("Company Name", "whmpress") ?></strong>: <?php echo $wpdb->get_var("SELECT `value` FROM `".whmp_get_configuration_table_name()."` WHERE `setting`='CompanyName'"); ?><br />
+#: <strong><?php _e("Language", "whmpress") ?></strong>: <?php echo $wpdb->get_var("SELECT `value` FROM `".whmp_get_configuration_table_name()."` WHERE `setting`='Language'"); ?><br />
+#: <strong><?php _e("Email", "whmpress") ?></strong>: <?php echo $wpdb->get_var("SELECT `value` FROM `".whmp_get_configuration_table_name()."` WHERE `setting`='email'"); ?><br />
+msgid "Email"
+msgstr "Email address"
+
+#. wpml-name: 500c05f23c47192efdde745ce21476b7
+#: </tr>
+#: <tr>
+#: <td class="row-title"><?php _e("Last Synced", "whmpress") ?></td>
+msgid "Last Synced"
+msgstr "Last Synced"
+
+#. wpml-name: 78cd2c7d5422ffdb6d9545211ca49eeb
+#: </tr>
+#: <tr>
+#: <td class="row-title"><?php _e("Domains", "whmpress") ?></td>
+msgid "Domains"
+msgstr "Domains"
+
+#. wpml-name: eae639a70006feff484a39363c977e24
+#: <tr>";
+#: 
+#: $FixTitles = array( __("Domain","whmpress"),__("Price","whmpress"),__("Years","whmpress"),__("Renewal Price","whmpress"),__("Transfer Price","whmpress"));
+msgid "Domain"
+msgstr "Domain"
+
+#. wpml-name: 068f80c7519d0528fb08e82137a72131
+#: </tr>
+#: <tr>
+#: <td class="row-title"><?php _e("Products", "whmpress") ?></td>
+msgid "Products"
+msgstr "Products"
+
+#. wpml-name: 953a899f7a6e2107ba6e088c0e3cd208
+#: </tr>
+#: <tr>
+#: <td class="row-title"><?php _e("Product Groups", "whmpress") ?></td>
+msgid "Product Groups"
+msgstr "Product Groups"
+
+#. wpml-name: dfcfc43722eef1eab1e4a12e50a068b1
+#: </tr>
+#: <tr>
+#: <td class="row-title"><?php _e("Currencies", "whmpress") ?></td>
+msgid "Currencies"
+msgstr "Currencies"
+
+#. wpml-name: b3f252777a69b110667756babe83a98f
+#: <?php endif; ?>
+#: <tr>
+#: <th colspan="2"><?php _e("Addons", "whmpress") ?></th>
+msgid "Addons"
+msgstr "Addons"
+
+#. wpml-name: 002dbac1f29af581f4433975da18c3bc
+#: <?php if ($whmp_grp) { ?>
+#: <p><?php _e("You have installed", "whmpress") ?> (<strong><?php echo @$plugin_data_grp["Name"]; ?> - v<?php echo @$plugin_data_grp["Version"]; ?></strong>)</p>
+msgid "You have installed"
+msgstr "You have installed"
+
+#. wpml-name: 4c1c211c160867f99e90c235838c2ff7
+#: <script>
+#: function Reset() {
+#: if (!confirm("<?php _e("Warning! All cached data and all settings of WHMpress will removed","whmpress") ?>.\n\n\n<?php _e("Are you sure","whmpress") ?>")) return false;
+msgid "Warning! All cached data and all settings of WHMpress will removed"
+msgstr "Warning! All cached data and all settings of WHMpress will removed."
+
+#. wpml-name: 868e1daafcda0d0e5ae7f68a2b403e77
+#: <script>
+#: function Reset() {
+#: if (!confirm("<?php _e("Warning! All cached data and all settings of WHMpress will removed","whmpress") ?>.\n\n\n<?php _e("Are you sure","whmpress") ?>")) return false;
+msgid "Are you sure"
+msgstr "Are you sure?"
+
+#. wpml-name: 72d6d7a1885885bb55a565fd1070581a
+#: <div class="wrap">
+#: <div class="whmp-main-title"><span class="whmp-title">WHMpress</span> <?php _e("Import", "whmpress") ?></div>
+#: </div>
+msgid "Import"
+msgstr "Import"
+
+#. wpml-name: 0095a9fa74d1713e43e370a7d7846224
+#: <div class="wrap">
+#: <div class="whmp-main-title"><span class="whmp-title">WHMpress</span> <?php _e("Export", "whmpress") ?></div>
+#: </div>
+msgid "Export"
+msgstr "Export"
+
+#. wpml-name: b9df4904d8bbb4535cfc57d2828f9aa1
+#: </p>
+#: <p>
+#: <a href="http://codecanyon.net/item/whmcs-pricing-sliders-and-comparison-tables-whmpress-addon/14949513" target="_blank" class="button button-primary"><?php _e("Buy this Addon", "whmpress") ?></a>
+msgid "Buy this Addon"
+msgstr "Buy this Addon"
+
+#. wpml-name: 2d27cb3a987059aaaae6b3a89167c193
+#: <div class="whmpress_panel">
+#: <div>
+#: <h3><?php _e("Spread the word", "whmpress") ?>?</h3>
+msgid "Spread the word"
+msgstr "Spread the word"
+
+#. wpml-name: a5a7b3e3c7cbf1cdb8c5c2fe0796ab66
+#: <div>
+#: <h3><?php _e("Spread the word", "whmpress") ?>?</h3>
+#: <p><?php _e("We are working hard to make your WHMpress more useful for your hosting business. Please support us, here is how", "whmpress") ?></p>
+msgid "We are working hard to make your WHMpress more useful for your hosting business. Please support us, here is how"
+msgstr "We are working hard to make your WHMpress more useful for your hosting business. Please support us, here is how:"
+
+#. wpml-name: f79a2808a3bdd86c6574c3d227a892e0
+#: <p><?php _e("We are working hard to make your WHMpress more useful for your hosting business. Please support us, here is how", "whmpress") ?></p>
+#: <p>
+#: <a href="http://codecanyon.net/downloads" target="_blank"><?php _e("Give us a Good Rating", "whmpress") ?></a><br />
+msgid "Give us a Good Rating"
+msgstr "Give us a Good Rating"
+
+#. wpml-name: 9cfc9b74983d504ec71db33967591249
+#: <p>
+#: <a href="http://codecanyon.net/downloads" target="_blank"><?php _e("Give us a Good Rating", "whmpress") ?></a><br />
+#: <a href="http://codecanyon.net/user/creativeon#contact" target="_blank"><?php _e("Contact Us", "whmpress") ?></a><br />
+msgid "Contact Us"
+msgstr "Contact Us"
+
+#. wpml-name: cae804ee83388de1d159db5cfa20ff42
+#: <a href="http://codecanyon.net/user/creativeon#contact" target="_blank"><?php _e("Contact Us", "whmpress") ?></a><br />
+#: <!--a href="#">Follow us on Google+</a><br />
+#: <a href="#"><?php _e("Post to Twitter", "whmpress") ?></a-->
+msgid "Post to Twitter"
+msgstr "Post to Twitter"
+
+#: 
+msgid "Pricing Table Groups"
+msgstr "Pricing Table Groups"
+
+#: 
+msgid "Services"
+msgstr "Services"
+
+#. wpml-name: 902b0d55fddef6f8d651fe1035b7d4bd
+#: <div class="error">
+#: <p>
+#: <b>WHMPress <?php _e("Error", "whmpress") ?></b>
+msgid "Error"
+msgstr "Error"
+
+#. wpml-name: 7b9d9e596936f1d39e76a05b348366ad
+#: <div class="updated">
+#: <p>
+#: <?php _e("This page has all services list", "whmpress") ?>
+msgid "This page has all services list"
+msgstr "This page lists all the products & services you have configured in WHMCS installation. You will find all services in their respective tabs. It gives you an overview of the services you have without leaving WordPress. Plus you may also use this page to find the Service/Product ID to use in Shortcode. If you find this page empty, click Sync WHMCS to cache your selling related settings from WHMCS."
+
+#. wpml-name: b5a7adde1af5c87d7fd797b6245c2a39
+#: <th style="width:25px"><?php _e("ID", "whmpress") ?></th>
+#: <th style="width:30%"><?php _e("Name", "whmpress") ?></th>
+#: <th><?php _e("Description", "whmpress") ?></th>
+msgid "Description"
+msgstr "Description"
+
+#. wpml-name: b718adec73e04ce3ec720dd11a06a308
+#: $fieldss = array(
+#: "sr"=>__("Sr", "whmpress"),
+#: "id"=>__("ID", "whmpress"),
+msgid "ID"
+msgstr "ID"
+
+#. wpml-name: 49ee3087348e8d44e1feda1917443987
+#: sr"=>__("Sr", "whmpress"),
+#: "id"=>__("ID", "whmpress"),
+#: "name"=>__("Name", "whmpress")
+msgid "Name"
+msgstr "Name"
+
+#. wpml-name: ca0dbad92a874b2f69b549293387925e
+#: <option value="prefix"><?php _e("Prefix", "whmpress") ?></option>
+#: <option value="suffix" <?php echo $symb=="suffix"?"selected=selected":""; ?>><?php _e("Suffix", "whmpress") ?></option>
+#: <option value="code" <?php echo $symb=="code"?"selected=selected":""; ?>><?php _e("Code", "whmpress") ?></option>
+msgid "Code"
+msgstr "Code"
+
+#. wpml-name: 716de874a0d74f25c0aa8c444c3a7539
+#: <?php $symb = esc_attr( get_option('default_currency_symbol',"prefix") ); ?>
+#: <select style="width:100%;" name="default_currency_symbol">
+#: <option value="prefix"><?php _e("Prefix", "whmpress") ?></option>
+msgid "Prefix"
+msgstr "Prefix"
+
+#. wpml-name: 56e6ddd1cb6cec596b433440dfb21c17
+#: <select style="width:100%;" name="default_currency_symbol">
+#: <option value="prefix"><?php _e("Prefix", "whmpress") ?></option>
+#: <option value="suffix" <?php echo $symb=="suffix"?"selected=selected":""; ?>><?php _e("Suffix", "whmpress") ?></option>
+msgid "Suffix"
+msgstr "Suffix"
+
+#. wpml-name: f4f70727dc34561dfde1a3c529b6205c
+#: <a class="nav-tab" href="<?php echo admin_url() ?>admin.php?page=whmp-dashboard"><?php echo __('Dashboard','whmpress');?></a>
+#: <a class="nav-tab nav-tab-active" href="<?php echo admin_url() ?>admin.php?page=whmp-services"><?php echo __('Products/Services','whmpress');?></a>
+#: <a class="nav-tab" href="<?php echo admin_url() ?>admin.php?page=whmp-settings"><?php echo __('Settings','whmpress');?></a>
+msgid "Settings"
+msgstr "Settings"
+
+#: 
+msgid "Select if you wish to use http or https (SSL) url for placing orders"
+msgstr "Select if you wish to use http or https (SSL) url for placing orders."
+
+#. wpml-name: 4c1c7d945fcd04d68bd3b3f1d99a55a1
+#: <ul class='etabs'>
+#: <li class='tab'><a href='#general'><?php _e("General", "whmpress") ?></a></li>
+#: <li class='tab'><a href="#styles"><?php _e("Styles", "whmpress") ?></a></li>
+msgid "Styles"
+msgstr "Styles"
+
+#. wpml-name: 4fed11a02070ea88747f829cf7e47865
+#: <li class='tab'><a href="#ajax_domain_search"><?php _e("Domain Search", "whmpress") ?></a></li>
+#: <?php endif; ?>
+#: <li class='tab'><a href="#defaults"><?php _e("Default Values", "whmpress") ?></a></li>
+msgid "Default Values"
+msgstr "Default Values"
+
+#: 
+msgid "Default settings for Shortcodes, all these settings can be overridden in Shortcodes"
+msgstr "Default settings for Shortcodes, all these settings can be overridden in Shortcodes."
+
+#: 
+msgid "Ajax Domain Search"
+msgstr "Ajax Domain Search"
+
+#: 
+msgid "Setting for AJax Domain Search Extension"
+msgstr "Setting for AJax Domain Search Extension."
+
+#. wpml-name: 9b6545e4cea9b4ad4979d41bb9170e2b
+#: <li class='tab'><a href="#currencies"><?php _e("Currencies", "whmpress") ?></a></li>
+#: <li class='tab'><a href="#3rdparty"><?php _e("3rd Party", "whmpress") ?></a></li>
+#: <li class='tab'><a href="#advanced"><?php _e("Advanced", "whmpress") ?></a></li>
+msgid "Advanced"
+msgstr "Advanced"
+
+#. wpml-name: 3a6f1cb7afcc137487af6c257dfa9b1d
+#: </tr>
+#: <tr valign="top">
+#: <td scope="row" style="width:30%;"><?php _e("Decimal Seperator", "whmpress") ?></td>
+msgid "Decimal Seperator"
+msgstr "Decimal Seperator"
+
+#. wpml-name: c701b9355deac04133466876367d788c
+#: </tr>
+#: <tr valign="top">
+#: <td scope="row" style="width:30%;"><?php _e("Show trailing zeros in price", "whmpress") ?></td>
+msgid "Show trailing zeros in price"
+msgstr "Show trailing zeros in price"
+
+#. wpml-name: 96033521304b4bfacc7fd90270bb07f2
+#: </tr>
+#: <tr valign="top">
+#: <td scope="row" style="width:30%;"><?php _e("Show symbol with price", "whmpress") ?></td>
+msgid "Show symbol with price"
+msgstr "Show symbol with price"
+
+#. wpml-name: 6adf97f83acf6453d4a6a4b1070f3754
+#: <option value="suffix" <?php echo $symb=="suffix"?"selected=selected":""; ?>><?php _e("Suffix", "whmpress") ?></option>
+#: <option value="code" <?php echo $symb=="code"?"selected=selected":""; ?>><?php _e("Code", "whmpress") ?></option>
+#: <option value="none" <?php echo $symb=="none"?"selected=selected":""; ?>><?php _e("None", "whmpress") ?></option>
+msgid "None"
+msgstr "None"
+
+#. wpml-name: ad79d802959d0f7d72f1cabe6742d2f6
+#: <table class="form-table">
+#: <tr scope="row">
+#: <td style="width:30%;"><?php _e("Select style", "whmpress") ?></td>
+msgid "Select style"
+msgstr "Select style"
+
+#. wpml-name: 34ad48eabc23263b40a1ec587ef6795f
+#: </tr>
+#: <tr scope="row">
+#: <td valign="top" style="width:30%;"><?php _e("Include font awesome", "whmpress") ?></td>
+msgid "Include font awesome"
+msgstr "Include font awesome"
+
+#. wpml-name: 0adf77ccdfe96df65a99d3078b87eea3
+#: </div>
+#: <div id="CustomMessages">
+#: <h3><?php _e("Custom Messages", "whmpress") ?></h3>
+msgid "Custom Messages"
+msgstr "Custom Messages"
+
+#. wpml-name: e36726a553e95ed7dfe5b01346a53399
+#: <table class="form-table">
+#: <tr valign="top">
+#: <td style="width:30%;" scope="row"><?php _e("Domain available message", "whmpress") ?></td>
+msgid "Domain available message"
+msgstr "Domain available message"
+
+#. wpml-name: 2145ac178e64e141a58ffa81ec430a91
+#: </tr>
+#: <tr valign="top">
+#: <td scope="row"><?php _e("Domain not available message", "whmpress") ?></td>
+msgid "Domain not available message"
+msgstr "Domain not available message"
+
+#. wpml-name: 758657d085669645bbc92645f2bf75f7
+#: </tr>
+#: <tr valign="top">
+#: <td scope="row"><?php _e("Recommended domains list message", "whmpress") ?></td>
+msgid "Recommended domains list message"
+msgstr "Recommended domains list message"
+
+#. wpml-name: 31a7281e95de2c850ff9925fa4956a00
+#: </tr>
+#: <tr valign="top">
+#: <td scope="row"><?php _e("Ongoing domain available message", "whmpress") ?></td>
+msgid "Ongoing domain available message"
+msgstr "Ongoing domain available message"
+
+#. wpml-name: 0ff6231d105c7a3a17b953bfee3cacc1
+#: </tr>
+#: <tr valign="top">
+#: <td scope="row"><?php _e("Ongoing domain not available message", "whmpress") ?></td>
+msgid "Ongoing domain not available message"
+msgstr "Ongoing domain not available message"
+
+#. wpml-name: a5b8707a84ee0c7713dec2282c6c2314
+#: </tr>
+#: <tr valign="top">
+#: <td scope="row"><?php _e("Register domain button text", "whmpress") ?></td>
+msgid "Register domain button text"
+msgstr "Register domain button text"
+
+#. wpml-name: be88dc30b1cc95bad8bc75e1a696940f
+#: </tr>
+#: <tr valign="top">
+#: <td scope="row"><?php _e("Load more button text", "whmpress") ?></td>
+msgid "Load more button text"
+msgstr "Load more button text"
+
+#: 
+msgid "Domain Search Options"
+msgstr "Domain Search Options"
+
+#. wpml-name: 17c7aedf6d5f1470fc7369ae4b99b82e
+#: </tr>
+#: <tr valign="top">
+#: <td style="width:30%;" scope="row"><?php _e("Number of domains to show in load more page", "whmpress") ?></td>
+msgid "Number of domains to show in load more page"
+msgstr "Number of domains to show in load more page"
+
+#. wpml-name: 420f4ccc286361950bfb861f4a36a93f
+#: </tr>
+#: <tr valign="top">
+#: <td scope="row"><?php _e("TLD orders, (Comma seprated)", "whmpress") ?></td>
+msgid "TLD orders, (Comma seprated)"
+msgstr "TLD orders, (Comma seprated)"
+
+#. wpml-name: 0b0c68825ab26996346da4096e0bf1a6
+#: <table class="form-table">
+#: <tr>
+#: <td style="width:30%;" scope="row"><?php _e("WhoIs Servers", "whmpress") ?></td>
+msgid "WhoIs Servers"
+msgstr "WhoIs Servers"
+
+#. wpml-name: 3601146c4e948c32b6424d2c0a7f0118
+#: <tr>";
+#: 
+#: $FixTitles = array( __("Domain","whmpress"),__("Price","whmpress"),__("Years","whmpress"),__("Renewal Price","whmpress"),__("Transfer Price","whmpress"));
+msgid "Price"
+msgstr "Price"
+
+#. wpml-name: 935cc6518bb4069cc22f456bc1ee8032
+#: <table class="form-table">
+#: <tr valign="top">
+#: <th scope="row"><?php _e("Billing cycle", "whmpress") ?></th>
+msgid "Billing cycle"
+msgstr "Billing cycle"
+
+#. wpml-name: 23a2c870ebc7023b78f39e83a36462df
+#: </tr>
+#: <tr valign="top">
+#: <th scope="row"><?php _e("Hide decimals", "whmpress") ?></th>
+msgid "Hide decimals"
+msgstr "Hide decimals"
+
+#. wpml-name: 2b417805040de3a3df31c8fd3626b57c
+#: </tr>
+#: <tr valign="top">
+#: <th scope="row"><?php _e("Decimals", "whmpress") ?></th>
+msgid "Decimals"
+msgstr "Decimals"
+
+#. wpml-name: 539897380dc1f1e486ae52608108517d
+#: </tr>
+#: <tr valign="top">
+#: <th scope="row"><?php _e("Show prefix", "whmpress") ?></th>
+msgid "Show prefix"
+msgstr "Show prefix"
+
+#. wpml-name: 488af6778b6e236b772a07408db30868
+#: </tr>
+#: <tr valign="top">
+#: <th scope="row"><?php _e("Show suffix", "whmpress") ?></th>
+msgid "Show suffix"
+msgstr "Show suffix"
+
+#. wpml-name: b117e056a52daecf9956f394a36002d6
+#: </tr>
+#: <tr valign="top">
+#: <th scope="row"><?php _e("Show duration", "whmpress") ?></th>
+msgid "Show duration"
+msgstr "Show duration"
+
+#: 
+msgid "Combo Defaults"
+msgstr "Combo Defaults"
+
+#. wpml-name: 94705afb26e475fbe832fb49521bad01
+#: echo whmpress_draw_combo_multiple($data,$selected,"combo_billingcycles");
+#: ?>
+#: <span class="description"><?php _e("Press {Ctrl} button for multiple selection", "whmpress") ?></span>
+msgid "Press {Ctrl} button for multiple selection"
+msgstr "Press {Ctrl} button for multiple selection"
+
+#. wpml-name: 04331f6bb9cbb4fe0ed5da011c1a7f7c
+#: </tr>
+#: <tr valign="top">
+#: <th scope="row"><?php _e("Show button", "whmpress") ?></th>
+msgid "Show button"
+msgstr "Show button"
+
+#: 
+msgid "Rows"
+msgstr "Rows"
+
+#. wpml-name: 111082bb18b636c4493e0370dce09f00
+#: </tr>
+#: <tr valign="top">
+#: <th scope="row"><?php _e("Button text", "whmpress") ?></th>
+msgid "Button text"
+msgstr "Button text"
+
+#. wpml-name: 5ff30b086e6b6964720014f63d2887d6
+#: </tr>
+#: <tr valign="top">
+#: <th scope="row"><?php _e("Show discount", "whmpress") ?></th>
+msgid "Show discount"
+msgstr "Show discount"
+
+#: 
+msgid "URL overwrite for compatibility with third party tools (WHMCS Bridge)"
+msgstr "URL overwrite for compatibility with third party tools (WHMCS Bridge)"
+
+#. wpml-name: 19d3f67d1a44460a1c68e2a263777e3d
+#: $disabled="disabled=disabled"; ?>
+#: <div style="border: 2px solid #FCBD28;padding:10px;background:#FFFFFF;font-weight:bold">
+#: <?php _e("WHMCS Client Area Addon is Active. If you want to use a third party plugin for this purpose (WHMCS-bridge) please deactivate the WHMCS Client Area Addon by WHMpress", "whmpress") ?></div>
+msgid "WHMCS Client Area Addon is Active. If you want to use a third party plugin for this purpose (WHMCS-bridge) please deactivate the WHMCS Client Area Addon by WHMpress"
+msgstr "WHMCS Client Area Addon is Active. If you want to use a third party plugin for this purpose (WHMCS-bridge) please deactivate the WHMCS Client Area Addon by WHMpress."
+
+#. wpml-name: de5daf94e557ab7c6c6fb001fc3dae14
+#: <tr valign="top">
+#: <td scope="row"><?php _e("Announcements URL", "whmpress") ?></td>
+msgid "Announcements URL"
+msgstr "Announcements URL"
+
+#. wpml-name: d6342382f40b6754e0828494a920726c
+#: <tr valign="top">
+#: <td scope="row"><?php _e("Submit Ticket URL", "whmpress") ?></td>
+msgid "Submit Ticket URL"
+msgstr "Submit Ticket URL"
+
+#. wpml-name: 84c755a06f6d5b50350b1e790a96fd7e
+#: <tr valign="top">
+#: <td scope="row"><?php _e("Downloads page URL", "whmpress") ?></td>
+msgid "Downloads page URL"
+msgstr "Downloads page URL"
+
+#. wpml-name: 82acdf6d64be683a73c7cfe1c64f1982
+#: <tr valign="top">
+#: <td scope="row"><?php _e("Support Tickets URL", "whmpress") ?></td>
+msgid "Support Tickets URL"
+msgstr "Support Tickets URL"
+
+#. wpml-name: a96112440be711018824ff7de562ddcd
+#: <tr valign="top">
+#: <td scope="row"><?php _e("Knowledgebase URL", "whmpress") ?></td>
+msgid "Knowledgebase URL"
+msgstr "Knowledgebase URL"
+
+#. wpml-name: c77a21259eca386341439a5dc8841211
+#: <tr valign="top">
+#: <td scope="row"><?php _e("Affiliates URL", "whmpress") ?></td>
+msgid "Affiliates URL"
+msgstr "Affiliates URL"
+
+#. wpml-name: 125c81e424f2d47c81fe3a51d6078717
+#: <tr valign="top">
+#: <td scope="row"><?php _e("Order URL", "whmpress") ?></td>
+msgid "Order URL"
+msgstr "Order URL"
+
+#. wpml-name: e3623c3809dd9c4c05135fca6393713a
+#: <tr valign="top">
+#: <td scope="row"><?php _e("Pre-sales Contact URL", "whmpress") ?></td>
+msgid "Pre-sales Contact URL"
+msgstr "Pre-sales Contact URL"
+
+#. wpml-name: 184a56f6cba553e9e67ca12d5238c2ad
+#: <tr valign="top">
+#: <td scope="row"><?php _e("Domain Checker URL", "whmpress") ?></td>
+msgid "Domain Checker URL"
+msgstr "Domain Checker URL"
+
+#. wpml-name: a8edf8a91ec0651f0489dd37c29b51ad
+#: <tr valign="top">
+#: <td scope="row"><?php _e("Server Status URL", "whmpress") ?></td>
+msgid "Server Status URL"
+msgstr "Server Status URL"
+
+#. wpml-name: b96216d1df25ae0d0beef764b2de2d72
+#: <tr valign="top">
+#: <td scope="row"><?php _e("Network Issues URL", "whmpress") ?></td>
+msgid "Network Issues URL"
+msgstr "Network Issues URL"
+
+#. wpml-name: c4f12f6ff46716ff32e7819be685d61d
+#: <tr valign="top">
+#: <td scope="row"><?php _e("WHMCS Login URL", "whmpress") ?></td>
+msgid "WHMCS Login URL"
+msgstr "WHMCS Login URL"
+
+#. wpml-name: 46105713f9d4fbdf73706da86c1a5d07
+#: <tr valign="top">
+#: <td scope="row"><?php _e("WHMCS Register URL", "whmpress") ?></td>
+msgid "WHMCS Register URL"
+msgstr "WHMCS Register URL"
+
+#. wpml-name: 3ffcd1fc0975d784d659b95fcf814e68
+#: <tr valign="top">
+#: <td scope="row"><?php _e("WHMCS Forget Password URL", "whmpress") ?></td>
+msgid "WHMCS Forget Password URL"
+msgstr "WHMCS Forget Password URL"
+
+#. wpml-name: f5d6040ed78ca86ddc73296a49b18510
+#: <td colspan="3"><?php submit_button(); ?></td>
+#: <?php else: ?>
+#: <td colspan="3"><input disabled="disabled" type="button" name="submit" id="submit" class="button button-primary" value="<?php _e("Save Changes", "whmpress") ?>"></td>
+msgid "Save Changes"
+msgstr "Save Changes"
+
+#. wpml-name: 1e5bbe8bd968316aad1a3c7e93d17153
+#: <div class="updated">
+#: <p><?php _e("WHMpress makes your life easy by fetching all the services related information from WHMCS. Once you Sync WHMCS, all the services are fetched from WHMCS and are cached and made available in WHMpress for quick access", "whmpress") ?></p>
+msgid "WHMpress makes your life easy by fetching all the services related information from WHMCS. Once you Sync WHMCS, all the services are fetched from WHMCS and are cached and made available in WHMpress for quick access"
+msgstr "WHMpress makes your life easy by fetching all the services related information from WHMCS. Once you Sync WHMCS, all the services are fetched from WHMCS and are cached and made available in WHMpress for quick access."
+
+#. wpml-name: 08930b451fab89ba39ff3741c12fa032
+#: <table class="form-table">
+#: <tr valign="top">
+#: <td style="width:30%;" scope="row"><?php _e("WHMCS Database Server", "whmpress") ?></td>
+msgid "WHMCS Database Server"
+msgstr "WHMCS Database Server"
+
+#. wpml-name: a368c94f602d77cfadf6f57f60bf1f09
+#: </tr>
+#: <tr valign="top">
+#: <td scope="row"><?php _e("WHMCS Database Name", "whmpress") ?></td>
+msgid "WHMCS Database Name"
+msgstr "WHMCS Database Name"
+
+#. wpml-name: 7710ae1f4bc5eba629ed2b561817c27d
+#: </tr>
+#: <tr valign="top">
+#: <td scope="row"><?php _e("WHMCS Database User", "whmpress") ?></td>
+msgid "WHMCS Database User"
+msgstr "WHMCS Database User"
+
+#. wpml-name: d98b1237842c5f05936ffe322a2d916f
+#: </tr>
+#: <tr valign="top">
+#: <td scope="row"><?php _e("WHMCS Database Password", "whmpress") ?></td>
+msgid "WHMCS Database Password"
+msgstr "WHMCS Database Password"
+
+#. wpml-name: 537c66b24ef5c83b7382cdc3f34885f2
+#: $duration = @$totay[1];
+#: 
+#: if ($years=="1") $duration .= __('Year','whmpress');
+msgid "Year"
+msgstr "Year"
+
+#. wpml-name: e4a00407f4e14849a66f076123f38494
+#: $duration = "<$show_duration>/";
+#: if ($years=="1") $duration .= __("Year","whmpress");
+#: else $duration .= "$years ".__("Years","whmpress");
+msgid "Years"
+msgstr "Years"
+
+#. wpml-name: 7e129c6b2a469b6523013703fcb1db1c
+#: }
+#: $load_more = get_option('load_more_button_text',__("Load More", "whmpress"));
+#: if ($load_more=="") $load_more = __("Load More", "whmpress");
+msgid "Load More"
+msgstr "Load More"
+
+#. wpml-name: e0626222614bdee31951d84c64e5e9ff
+#: $price = $wpdb->get_row($Q,ARRAY_A);
+#: 
+#: $register_text = get_option('register_domain_button_text',__("Select","whmpress"));
+msgid "Select"
+msgstr "Select"
+
+#. wpml-name: f2609b2f01e9ff81ac66b0e2b0c46cbc
+#: <div class="wrap">
+#: <div class="whmp-main-title"><span class="whmp-title">WHMpress</span> <?php _e("Client Area Settings", "whmpress") ?></div>
+msgid "Client Area Settings"
+msgstr "Client Area Settings"
+
+#: 
+msgid "System Status"
+msgstr "System Status"
+
+#. wpml-name: 1bacb9caa60813ee730288d7dd95e7fc
+#: </tr>
+#: <tr>
+#: <td class="row-title"><?php _e("Site URL", "whmpress") ?></td>
+msgid "Site URL"
+msgstr "Site URL"
+
+#. wpml-name: 7ce3183f94851606d3fa85d2722616fa
+#: </tr>
+#: <tr>
+#: <td class="row-title"><?php _e("Home URL", "whmpress") ?></td>
+msgid "Home URL"
+msgstr "Home URL"
+
+#. wpml-name: b33681e5c8f412a380bd985420ae2309
+#: </tr>
+#: <tr>
+#: <td class="row-title"><?php _e("WordPress Version", "whmpress") ?></td>
+msgid "WordPress Version"
+msgstr "WordPress Version"
+
+#. wpml-name: 28eb924204828a2c1c6648470e6b558a
+#: </tr>
+#: <tr>
+#: <td class="row-title"><?php _e("WordPress Multisite", "whmpress") ?></td>
+msgid "WordPress Multisite"
+msgstr "WordPress Multisite"
+
+#. wpml-name: c7107168f64cc5de230bbc58e7d1cdf4
+#: </tr>
+#: <tr>
+#: <td class="row-title"><?php _e("WordPress Language", "whmpress") ?></td>
+msgid "WordPress Language"
+msgstr "WordPress Language"
+
+#. wpml-name: 301cf2d41b36c768ec16c10f64420547
+#: </tr>
+#: <tr>
+#: <td class="row-title"><?php _e("WordPress Debug Mode", "whmpress") ?></td>
+msgid "WordPress Debug Mode"
+msgstr "WordPress Debug Mode"
+
+#. wpml-name: 3af5dcff356e27a453491545df5b8754
+#: </tr>
+#: <tr>
+#: <td class="row-title"><?php _e("WordPress Active Plugins", "whmpress") ?></td>
+msgid "WordPress Active Plugins"
+msgstr "WordPress Active Plugins"
+
+#. wpml-name: d613fdecc0129bc1b9f74684f0e04371
+#: <tr>
+#: <th colspan="2"><?php _e("Server Info", "whmpress") ?></th>
+msgid "Server Info"
+msgstr "Server Info"
+
+#. wpml-name: 6afc3fb9a0d28ac803a63835f0a4879b
+#: </tr>
+#: <tr>
+#: <td class="row-title"><?php _e("WordPress Max Upload Size", "whmpress") ?></td>
+msgid "WordPress Max Upload Size"
+msgstr "WordPress Max Upload Size"
+
+#. wpml-name: 0f5a4afc628ea6389a7343f0a6f83fa0
+#: echo size_format( $wp_upload_max );
+#: } else {
+#: echo '<span class="whmp_danger">' . sprintf( __( '%s (The server only allows %s)', 'whmpress' ), size_format( $wp_upload_max ), size_format( $server_upload_max ) ) . '</span>';
+msgid "%s (The server only allows %s)"
+msgstr "%s (The server only allows %s)"
+
+#: 
+msgid "WordPress Timezone"
+msgstr "WordPress Timezone"
+
+#. wpml-name: ab64e3d5feb645333b320d80a84c8255
+#: </tr>
+#: <tr>
+#: <td class="row-title"><?php _e("PHP Version", "whmpress") ?></td>
+msgid "PHP Version"
+msgstr "PHP Version"
+
+#. wpml-name: f6ea71c59b696b19a9b331b6ffaa6d8b
+#: </tr>
+#: <tr>
+#: <td class="row-title"><?php _e("Server Software", "whmpress") ?></td>
+msgid "Server Software"
+msgstr "Server Software"
+
+#. wpml-name: 98dd43dfae05b11befe1f140e0ec787a
+#: </tr>
+#: <tr>
+#: <td class="row-title"><?php _e("Installed", "whmpress") ?></td>
+msgid "Installed"
+msgstr "Installed"
+
+#. wpml-name: ddd8eef6f86868a07f62b0e3810711f0
+#: <tr>
+#: <td class="row-title">cURL Extension</td>
+#: <td><?php echo function_exists('curl_version')?__("Installed","whmpress"):"<span class='whmp_danger'>".__("Not Installed","whmpress")."</span>"; ?></td>
+msgid "Not Installed"
+msgstr "Not Installed"
+
+#. wpml-name: 3fcd2c490fc737eec8b647bb5eaab2fe
+#: </tr>
+#: <tr>
+#: <td class="row-title"><?php _e("WHMCS Version", "whmpress") ?></td>
+msgid "WHMCS Version"
+msgstr "WHMCS Version"
+
+#. wpml-name: bb38096ab39160dc20d44f3ea6b44507
+#: <tr>
+#: <th colspan="2"><?php _e("Plugins", "whmpress") ?></th>
+msgid "Plugins"
+msgstr "Plugins"
+
+#. wpml-name: d721757161f7f70c5b0949fdb6ec2c30
+#: </tr>
+#: <tr>
+#: <th colspan="2"><?php _e("Theme", "whmpress") ?></th>
+msgid "Theme"
+msgstr "Theme"
+
+#. wpml-name: 452ccd13ee01a00ad75d67f8efb7bcdc
+#: </tr>
+#: <tr>
+#: <td class="row-title"><?php _e("Theme Name", "whmpress") ?></td>
+msgid "Theme Name"
+msgstr "Theme Name"
+
+#. wpml-name: 8f6daaf2b048702eb814781894bc1a3e
+#: </tr>
+#: <tr class="alt">
+#: <td class="row-title"><?php _e("Theme Version", "whmpress") ?></td>
+msgid "Theme Version"
+msgstr "Theme Version"
+
+#. wpml-name: 958725b1a8d8b697269808db2b42156b
+#: </tr>
+#: <tr>
+#: <td class="row-title"><?php _e("Theme Author URL", "whmpress") ?></td>
+msgid "Theme Author URL"
+msgstr "Theme Author URL"
+
+#. wpml-name: f8ab979fd504f8e72d67d84c22efa844
+#: </tr>
+#: <tr class="alt">
+#: <td class="row-title"><?php _e("Is Child Theme", "whmpress") ?></td>
+msgid "Is Child Theme"
+msgstr "Is Child Theme"
+
+#. wpml-name: 70ad792fad1cbc7d0e1ba91607fdce2f
+#: ?>
+#: <tr>
+#: <td class="row-title"><?php _e("Parent Theme Name", "whmpress") ?></td>
+msgid "Parent Theme Name"
+msgstr "Parent Theme Name"
+
+#. wpml-name: 56d75fd38c0c404b2ea77684ce4685c3
+#: </tr>
+#: <tr class="alt">
+#: <td class="row-title"><?php _e("Parent Theme Version", "whmpress") ?></td>
+msgid "Parent Theme Version"
+msgstr "Parent Theme Version"
+
+#. wpml-name: 0b1045681d6f426b1c5764020f164b95
+#: <?php if (is_plugin_active( 'WHMpress_Client_Area/client-area.php' )): ?>
+#: <tr>
+#: <td class="row-title"><?php _e("Client Area URL", "whmpress") ?></td>
+msgid "Client Area URL"
+msgstr "Client Area URL"
+
+#: 
+msgid "Custom CSS"
+msgstr "Custom CSS"
+
+#. wpml-name: 4c0b57fa3bba7259939e0f5c28f0e481
+#: </tr>
+#: <tr>
+#: <td class="row-title"><?php _e("WHMCS URL", "whmpress") ?></td>
+msgid "WHMCS URL"
+msgstr "WHMCS URL"
+
+#. wpml-name: 08c450b6db737c3f2208d17d0d6bdc5a
+#: <div class="error">
+#: <p>
+#: <?php _e("If you have SSL URL configured in WHMCS Admin Area > Setup > General Settings then you must select HTTPS from here, Or you will endup with redirect loop.", "whmpress"); ?>
+msgid "If you have SSL URL configured in WHMCS Admin Area > Setup > General Settings then you must select HTTPS from here, Or you will endup with redirect loop."
+msgstr "If you have SSL URL configured in WHMCS Admin Area > Setup > General Settings then you must select HTTPS from here, Or you will endup with redirect loop."
+
+#: 
+msgid "How to show images/css/js files"
+msgstr "How to show images/css/js files"
+
+#: 
+msgid "Exclude .js & .css files from WHMCS"
+msgstr "Exclude .js & .css files from WHMCS"
+
+#: 
+msgid "Comma separated"
+msgstr "Comma separated"
+
+#. wpml-name: b85a103c89e8074d5a69f8dbe651dd96
+#: $smarty_array["order_button_text"] = $register_text;
+#: $Message = get_option("domain_recommended_list");
+#: if ($Message=="") $Message = __("Recommended domains list","whmpress");
+msgid "Recommended domains list"
+msgstr "Recommended domains list"
+
+#. wpml-name: 1ae7fdcbf6b510b09d57b2642d3ca784
+#: $Dom = $newDomain;
+#: $Message = get_option('ongoing_domain_not_available_message',__("[domain-name] is registered","whmpress"));
+#: if ($Message=="") $Message = __("[domain-name] is registered","whmpress");
+msgid "[domain-name] is registered"
+msgstr "[domain-name] is registered"
+
+#: 
+msgid "Hide WHMCS Currency"
+msgstr "Hide WHMCS Currency"
+
+#: 
+msgid "Hide Client IP address"
+msgstr "Hide Client IP address"
+
+#: 
+msgid "Starting from"
+msgstr "Starting from"
+
+#. wpml-name: 94f5c19438796baf34b3b9d55b086037
+#: $Dom = $newDomain;
+#: $Message = get_option('ongoing_domain_available_message',__("[domain-name] is available","whmpress"));
+#: if ($Message=="") $Message = __("[domain-name] is available","whmpress");
+msgid "[domain-name] is available"
+msgstr "[domain-name] is available"
+
+#: 
+msgid "[domain-name] is not available and is already registered"
+msgstr "[domain-name] is not available and is already registered "
+
+#: 
+msgid "Long (Year)"
+msgstr "Long (Year)"
+
+#: 
+msgid "Short (Yr)"
+msgstr "Short (Yr)"
+
+#. wpml-name: 3790fe82067455e16dd502d3d156a8eb
+#: <?php
+#: $selected = whmpress_get_option('show_duration_as');
+#: $data = array("loing"=>__("Long Duration (Year)","whmpress"),"short"=>__("Short Duration (Yr)","whmpress"));
+msgid "Long Duration (Year)"
+msgstr "Long Duration (Year)"
+
+#. wpml-name: e07b5323ad8869304d2af2b68e1885b2
+#: <?php
+#: $selected = whmpress_get_option('show_duration_as');
+#: $data = array("loing"=>__("Long Duration (Year)","whmpress"),"short"=>__("Short Duration (Yr)","whmpress"));
+msgid "Short Duration (Yr)"
+msgstr "Short Duration (Yr)"
+
+#. wpml-name: 8ba54dbad465b9fc7e037730a814d307
+#: case "pages":
+#: ?><select name="<?php echo $key ?>">
+#: <option value=""><?php echo esc_attr( __( 'Select page', 'whmpress' ) ); ?></option>
+msgid "Select page"
+msgstr "Select page"
+
+#: 
+msgid "Login"
+msgstr "Login"
+
+#: 
+msgid "Search"
+msgstr "Search"
+
+#: 
+msgid "Click here to register with us"
+msgstr "Click here to register with us"
+
+#: 
+msgid "Get Whois"
+msgstr "Get Whois"
+
+#: 
+msgid "Order"
+msgstr "Order"
+
+#: 
+msgid "Remove WHMCS Menu"
+msgstr "Remove WHMCS Menu"
+
+#: 
+msgid "Client Area Template Configuration"
+msgstr "Client Area Template Configuration"
+
+#. wpml-name: 0f98b7f230f3c91292f0de4c99e263f2
+#: </form>
+#: <div id="registration">
+#: <h3 class="whmp-sub-head"><?php _e("Registration", "whmpress") ?></h3>
+msgid "Registration"
+msgstr "Registration"
+
+#. wpml-name: 1b1b12f4382b4c246c1c158300773606
+#: <?php if ( WHMpress::verified_purchase() ): ?>
+#: <div id="div3">
+#: <h3><?php _e("Registered WHMpress", "whmpress") ?></h3>
+msgid "Registered WHMpress"
+msgstr "Registered WHMpress"
+
+#: 
+msgid "Your purchase of WHMpress is registered"
+msgstr "Your purchase of WHMpress is registered"
+
+#. wpml-name: 390c95fb109995a2a126d2edfdb287af
+#: if ($res === false)
+#: $res = new WP_Error('plugins_api_failed', __('An unknown error occurred', "whmpress"), $request['body']);
+msgid "An unknown error occurred"
+msgstr "An unknown error occurred"
+
+#. wpml-name: b106627ff0b000b3364dcd42c11407a8
+#: $str .= "<div class="{$text_class} search_div">";
+#: $val = isset($_GET["search_domain"])?$_GET["search_domain"]:"";
+#: $str .= "<input required='required' title='".__("Please fill out this field", "whmpress")."' type="search" name="domain" id="search_domain" placeholder="".__($placeholder,"whmpress")."" value="{$val}" />\n";
+msgid "Please fill out this field"
+msgstr "Please fill out this field"
+
+#: 
+msgid "cURL timeout (in seconds)"
+msgstr "cURL timeout (in seconds)"
+
+#: 
+msgid "Enable Cache"
+msgstr "Enable Cache"
+
+#. wpml-name: 63b0932a63f24fcaf3f9be5dab85c298
+#: <table class="form-table">
+#: <tr valign="top">
+#: <td style="width:30%;" scope="row"><?php _e("Override WHMCS URL", "whmpress") ?></td>
+msgid "Override WHMCS URL"
+msgstr "Override WHMCS URL"
+
+#. wpml-name: adf37c00444c3335742de246e6760066
+#: </div>
+#: <div id="3rdparty">
+#: <h3 class="whmp-sub-head"><?php _e("URL override for compatibility with third party tools (WHMCS Bridge)", "whmpress") ?></h3>
+msgid "URL override for compatibility with third party tools (WHMCS Bridge)"
+msgstr "URL override for compatibility with third party tools (WHMCS Bridge)"
+
+#: 
+msgid "Month"
+msgstr "Month "
+
+#: 
+msgid "Mo"
+msgstr "Mo "
+
+#: 
+msgid "Months"
+msgstr "Months "
+
+#. wpml-name: be92c62702dcec6751c101b5adb0ce3b
+#: $data = array("monthly"=>__("Monthly","whmpress"),
+#: "annually"=>__("Annually","whmpress"),
+#: "quarterly"=>__("Quarterly","whmpress"),
+msgid "Quarterly"
+msgstr "Quarterly "
+
+#: 
+msgid "Semi-Annually"
+msgstr "Semi-Annually "
+
+#. wpml-name: 10b34207c4ef4df0cf0d0cf792e61bf9
+#: $selected = whmpress_get_option('billingcycle');
+#: $data = array("monthly"=>__("Monthly","whmpress"),
+#: "annually"=>__("Annually","whmpress"),
+msgid "Annually"
+msgstr "Annually "
+
+#. wpml-name: 24e5dfbea611a351408766b423a283fc
+#: quarterly"=>__("Quarterly","whmpress"),
+#: "semiannually"=>__("Semi Annually","whmpress"),
+#: "biennially"=>__("Biennially","whmpress")
+msgid "Biennially"
+msgstr "Biennially "
+
+#. wpml-name: c5b46511a5800074f84846c3353d6f00
+#: semiannually"=>__("Semi Annually","whmpress"),
+#: "biennially"=>__("Biennially","whmpress"),
+#: "triennially"=>__("Triennially","whmpress")
+msgid "Triennially"
+msgstr "Triennially "
+
+#: 
+msgctxt "whmpress"
+msgid "Search these extentions"
+msgstr "Search these extentions "
+
+#: 
+msgid "Select a panel from left"
+msgstr "\n"
+" Select a panel from left "
+
+#: 
+msgid "Reset all changes"
+msgstr "Reset all changes "
+
+#: 
+msgid "per month"
+msgstr "per month "
+
+#. wpml-name: cf13b270a2e3ac80a4e88b6e6c7a7faa
+#: $string .= "<option value="monthly">{$prefcursymbol}" . ($process_price["amount"].$decimal_sperator.$process_price["fraction"]) . "{$suffcursymbol}</option>\n";
+#: } else {
+#: $string .= "<option value="monthly">".__("1 Month", "whmpress")." - {$prefcursymbol}" . ($process_price["amount"].$decimal_sperator.$process_price["fraction"]) . "{$suffcursymbol}</option>\n";
+msgid "1 Month"
+msgstr "1 Month"
+
+#. wpml-name: 1d4545e8dacda9a91cc894203e1040a9
+#: monthly"=>__("Monthly", "whmpress"),
+#: "quarterly"=>__("3 Months", "whmpress"),
+#: "semiannually"=>__("6 Months", "whmpress")
+msgid "6 Months"
+msgstr "6 Months"
+
+#. wpml-name: f4863036c60c5d16b3ad102ea790bc34
+#: $process_price = process_price($row["triennially"]);
+#: $string .= "<option value="triennially">".__("36 Months", "whmpress")." - {$prefcursymbol}". ($process_price["amount"].$decimal_sperator.$process_price["fraction"]) .$suffcursymbol;
+msgid "36 Months"
+msgstr "36 Months"
+
+#. wpml-name: 730a42f38de1f8db904e22028021e8da
+#: $result = "<div class='whmpress_whois_results'><pre class='$result_text_class'>".$whois->whoislookup($_POST["whois_domain"],$tld,true)."</pre></div>";
+#: } else {
+#: $result = __("No domain selected", "whmpress");
+msgid "No domain selected"
+msgstr "No domain selected "
+
+#: 
+msgid "1 Year"
+msgstr "1 Year "
+
+#: 
+msgid "[domain-name] is not registered"
+msgstr "[domain-name] is not registered "
+
+#: 
+msgid "[domain-name] is not available"
+msgstr "[domain-name] is not available "
+
+#. wpml-name: cf5ea7953dc47105e0eb179dbefaaf46
+#: quarterly"=>__("3 Months", "whmpress"),
+#: "semiannually"=>__("6 Months", "whmpress"),
+#: "annually"=>__("Yearly", "whmpress")
+msgid "Yearly"
+msgstr "Yearly"
+
+#. wpml-name: 03937134cedab9078be39a77ee3a48a0
+#: id"=>__("ID", "whmpress"),
+#: "name"=>__("Name", "whmpress"),
+#: "groupn"=>__("Group", "whmpress")
+msgid "Group"
+msgstr "Group"
+
+#. wpml-name: 8aed7b13501e351db8ecf73c4fa5e65e
+#: # Setting fields/columns for Table
+#: $fieldss = array(
+#: "sr"=>__("Sr", "whmpress"),
+msgid "Sr"
+msgstr "Sr"
+
+#. wpml-name: c6395bd87045f885e0660f3ba3639de9
+#: $ientered = __("I entered fully qualified names","whmpress");
+#: $sthext = __("Search these extentions", "whmpress");
+msgid "Search these extentions"
+msgstr "Search these extentions "
+
+#. wpml-name: c50b8aa176fadeedd7800cef2d746ad7
+#: <tr>";
+#: 
+#: $FixTitles = array( __("Domain","whmpress"),__("Price","whmpress"),__("Years","whmpress"),__("Renewal Price","whmpress"),__("Transfer Price","whmpress"));
+msgid "Transfer Price"
+msgstr "Transfer Price"
+
+#. wpml-name: a12ec2aee6988965ca2ad2a920dac511
+#: <tr>";
+#: 
+#: $FixTitles = array( __("Domain","whmpress"),__("Price","whmpress"),__("Years","whmpress"),__("Renewal Price","whmpress"),__("Transfer Price","whmpress"));
+msgid "Renewal Price"
+msgstr "Renewal Price"
+
+#. wpml-name: 583dce1e7a2507b30a9eb71314c47d1c
+#: if ($row["paytype"]=="recurring") $duration = str_replace($BillingCycles,$ReplaceShortBillingCycles,$billingcycle);
+#: elseif ($row["paytype"]=="free")  $duration = "";
+#: elseif ($row["paytype"]=="onetime")  $duration = __("OT", "whmpress");
+msgid "OT"
+msgstr "OT"
+
+#. wpml-name: 4eea3a439fa46f1e7395b327a0e9ee54
+#: $billingcycle = __("free",'whmpress');
+#: } else if ($row["paytype"]=="onetime") {
+#: $billingcycle = __("onetime",'whmpress');
+msgid "onetime"
+msgstr "onetime"
+
+#. wpml-name: aa2d6e4f578eb0cfaba23beef76c2194
+#: #
+#: if ($row["paytype"]=="free") {
+#: $billingcycle = __("free",'whmpress');
+msgid "free"
+msgstr "free"
+
+#. wpml-name: 7436f942d5ea836cb84f1bb2527d8286
+#: if ($row["paytype"]=="recurring") {
+#: if (strtolower($convert_monthly)=="yes" && $show_duration_as=="short") $ShowedBillingCycle = __("mo",'whmpress');
+#: elseif (strtolower($convert_monthly)=="yes") $ShowedBillingCycle = __("month",'whmpress');
+msgid "month"
+msgstr "month"
+
+#. wpml-name: b24ce0cd392a5b0b8dedc66c25213594
+#: } else {
+#: if ($row["paytype"]=="recurring") $duration = str_replace($BillingCycles,$ReplaceLongBillingCycles,$billingcycle);
+#: elseif ($row["paytype"]=="free")  $duration = __("Free",'whmpress');
+msgid "Free"
+msgstr "Free"
+
+#. wpml-name: 557b9cc093fba62204951d2daff6e95e
+#: if ($row["paytype"]=="recurring") $ShowedBillingCycle = str_replace($BillingCycles,$ReplaceShortBillingCycles,$billingcycle);
+#: elseif ($row["paytype"]=="free")  $ShowedBillingCycle = "";
+#: elseif ($row["paytype"]=="onetime")  $ShowedBillingCycle = __('Ot','whmpress');
+msgid "Ot"
+msgstr "Ot"
+
+#. wpml-name: fd6e738fc6619f7145fdd34d71635ba7
+#: annually"=>__("Yearly", "whmpress"),
+#: "biennially"=>__("2 Years", "whmpress"),
+#: "triennially"=>__("3 Years", "whmpress")
+msgid "3 Years"
+msgstr "3 Years"
+
+#. wpml-name: a70c5f92d6eb51524440c5b61b067b11
+#: semiannually"=>__("6 Months", "whmpress"),
+#: "annually"=>__("Yearly", "whmpress"),
+#: "biennially"=>__("2 Years", "whmpress")
+msgid "2 Years"
+msgstr "2 Years"
+
+#. wpml-name: 0085088d53a4e6db9d209ab6fbd409eb
+#: $monthly = $CurrencyFunction($row["biennially"]/24,$decimal);
+#: $process_price = process_price($row["biennially"]);
+#: $string .= "<option value="biennially">" . __('24 Months','whmpress') . " - {$prefcursymbol}". ($process_price["amount"].$decimal_sperator.$process_price["fraction"]) .$suffcursymbol;
+msgid "24 Months"
+msgstr "24 Months"
+
+#. wpml-name: f535419642ceeb6361113199dc2dc695
+#: $monthly = $CurrencyFunction($row["annually"]/12,$decimal);
+#: $process_price = process_price($row["annually"]);
+#: $string .= "<option value="annually">" . __('12 Months','whmpress') . " - {$prefcursymbol}". ($process_price["amount"].$decimal_sperator.$process_price["fraction"]) .$suffcursymbol;
+msgid "12 Months"
+msgstr "12 Months"
+
+#. wpml-name: 27c9d5187cd283f8d160ec1ed2b5ac89
+#: $process_price = process_price($row["triennially"]);
+#: $string .= "<option value="triennially">".__("36 Months", "whmpress")." - {$prefcursymbol}". ($process_price["amount"].$decimal_sperator.$process_price["fraction"]) .$suffcursymbol;
+#: if (strtolower($showdiscount)=="yes") $string .= " @ {$monthly}/".__("mo", "whmpress");
+msgid "mo"
+msgstr "mo"
+
+#. wpml-name: 3bb674664da7dcebbaabf832c7191d99
+#: $dfieldss = array(          // Deletable fields
+#: "monthly"=>__("Monthly", "whmpress"),
+#: "quarterly"=>__("3 Months", "whmpress"),
+msgid "3 Months"
+msgstr "3 Months"
+
+#. wpml-name: 994e1aa7bbf3e5408f20dd89c5b962cf
+#: if ($row["paytype"]=="recurring") $duration = str_replace($BillingCycles,$ReplaceLongBillingCycles,$billingcycle);
+#: elseif ($row["paytype"]=="free")  $duration = __("Free",'whmpress');
+#: elseif ($row["paytype"]=="onetime")  $duration = __("One Time",'whmpress');
+msgid "One Time"
+msgstr "One Time"
+
+#. wpml-name: c1c8a564c10a0efe07bb4e4b20d88cc9
+#: # Checking that provided ID is valid
+#: if ($row===false || !is_array($row)) return __('Invalid ID','whmpress');
+msgid "Invalid ID"
+msgstr "Invalid ID"
+
+#. wpml-name: 64b7ffb646592102f68f87de47137fdc
+#: if ( strtolower($show_duration)<>"no" ) {
+#: if ( strtolower($show_duration)=="yes" ) $duration = "/".$years.__(" Years","whmpress");
+msgid " Years"
+msgstr " Years"
+
+#. wpml-name: 553d696ab7d236be24ade9b277274746
+#: if (is_null($price) || $price===false) {
+#: $OutputString = __("Invalid TLD", "whmpress");
+msgid "Invalid TLD"
+msgstr "Invalid TLD"
+
+#. wpml-name: 288402361b82f19c1c233ae846d27b32
+#: );
+#: if (!array_key_exists($years, $YearColumn)) {
+#: $OutputString = __("Invalid year", "whmpress");
+msgid "Invalid year"
+msgstr "Invalid year"
+
+#. wpml-name: 839c45276739f5d31e2be991d3f6a913
+#: );
+#: if (!in_array($type, $AvailableTypes)) {
+#: $OutputString = __('Invalid type','whmpress');
+msgid "Invalid type"
+msgstr "Invalid type"
+
+#. wpml-name: 7a5e6031f00daa4d0f0e8e2c27bbeba3
+#: case "getDomainData":
+#: if (@$_POST["domain"]=="") {
+#: echo "<div class='whmp-domain-required'>".__("Domain name required.", "whmpress")."</div>";
+msgid "Domain name required."
+msgstr "Domain name required."
+
+#. wpml-name: a57dbc843e2a17b4508ad42fc806f27f
+#: </tr>
+#: <tr>
+#: <td class="row-title"><?php _e("Parent Theme Author URL", "whmpress") ?></td>
+msgid "Parent Theme Author URL"
+msgstr "Parent Theme Author URL"
+
+#. wpml-name: 5ffb5692ce3f2bf591ff92f5ab968455
+#: </tr>
+#: <tr>
+#: <td class="row-title"><?php _e("MySQLi Extension", "whmpress"); ?></td>
+msgid "MySQLi Extension"
+msgstr "MySQLi Extension"
+
+#. wpml-name: 7e97dc618c72716fe40e7052b71371c1
+#: </tr>
+#: <tr>
+#: <td class="row-title"><?php _e("WordPress Memory Limit", "whmpress") ?></td>
+msgid "WordPress Memory Limit"
+msgstr "WordPress Memory Limit"
+
+#. wpml-name: f9d5bbfe3eda1b62cbbf00d9e4cc465d
+#: <tr>
+#: <td><?php _e("Your purchase of WHMpress is registered") ?></td>
+#: <td style="text-align: right;"><button type="button" class="button button-red" onclick="UnVerify();"><?php _e("Un-Register WHMpress", "whmpress") ?></button></td>
+msgid "Un-Register WHMpress"
+msgstr "Un-Register WHMpress"
+
+#. wpml-name: 1745260238a43ab5ec6b65104ef8387b
+#: <tr valign="top">
+#: <td style="width:30%;" scope="row"><?php _e("Use UTF encode/decode", "whmpress") ?></td>
+msgid "Use UTF encode/decode"
+msgstr "Use UTF encode/decode"
+
+#. wpml-name: 9ffc3ccc968a96d902af963c6d7b4e97
+#: </div>
+#: <div id="advanced">
+#: <h3 class="whmp-sub-head"><?php _e("Advanced Settings", "whmpress") ?></h3>
+msgid "Advanced Settings"
+msgstr "Advanced Settings"
+
+#. wpml-name: ef90e0eb4a811c542249e56465e86ed8
+#: <thead>
+#: <tr>
+#: <td colspan="2"><button onclick="AddTR()" type="button" class="button button-primary"><?php _e("Add Country", "whmpress") ?></button></td>
+msgid "Add Country"
+msgstr "Add Country"
+
+#. wpml-name: 030e5691f68e67f877a4e59fcb6f4e2a
+#: }
+#: </style>
+#: <h3 class="whmp-sub-head"><?php _e("Country specific currency", "whmpress") ?></h3>
+msgid "Country specific currency"
+msgstr "Country specific currency"
+
+#. wpml-name: 1ae708723f591e19f8459d96cd3d2ae0
+#: <table class="form-table">
+#: <tr valign="top">
+#: <td style="width:30%;" scope="row"><?php _e("Override WHMCS default currency with", "whmpress") ?></td>
+msgid "Override WHMCS default currency with"
+msgstr "Override WHMCS default currency with"
+
+#. wpml-name: dd28c98592f47ec9c0b2f2dcb45ba24e
+#: </div>
+#: <div id="currencies">
+#: <h3 class="whmp-sub-head"><?php _e("Currency settings", "whmpress") ?></h3>
+msgid "Currency settings"
+msgstr "Currency settings"
+
+#. wpml-name: f71a9af651ef72b2428fc37dfd364e0c
+#: </tr>
+#: <tr scope="row">
+#: <td valign="top" style="width:30%;"><?php _e("Custom CSS codes", "whmpress") ?></td>
+msgid "Custom CSS codes"
+msgstr "Custom CSS codes"
+
+#. wpml-name: 2b14033c4dd9cc716a675c4855958feb
+#: <option value=""><?php _e('No Matching Templates','whmpress');?></option>
+#: <option <?php echo get_option("load_sytle_orders")=="author"?"selected=selected":"" ?> value="author"><?php _e('Matching Templates by Theme Author','whmpress');?></option>
+#: <option <?php echo get_option("load_sytle_orders")=="whmpress"?"selected=selected":"" ?> value="whmpress"><?php _e('Matching Templates by WHMpress','whmpress');?></option>
+msgid "Matching Templates by WHMpress"
+msgstr "Matching Templates by WHMpress"
+
+#. wpml-name: 733f94ff6a4d16269b5c9ad6d49b714d
+#: <select name="load_sytle_orders">
+#: <option value=""><?php _e('No Matching Templates','whmpress');?></option>
+#: <option <?php echo get_option("load_sytle_orders")=="author"?"selected=selected":"" ?> value="author"><?php _e('Matching Templates by Theme Author','whmpress');?></option>
+msgid "Matching Templates by Theme Author"
+msgstr "Matching Templates by Theme Author"
+
+#. wpml-name: f5337914f0538f5418a652ef47e56fc2
+#: <td>
+#: <select name="load_sytle_orders">
+#: <option value=""><?php _e('No Matching Templates','whmpress');?></option>
+msgid "No Matching Templates"
+msgstr "No Matching Templates"
+
+#. wpml-name: 97cac3623e45c8139727f901839ecff7
+#: </tr>
+#: <tr valign="top">
+#: <td scope="row" style="width:30%;"><?php _e("Load matching css/templates from", "whmpress") ?></td>
+msgid "Load matching css/templates from"
+msgstr "Load matching css/templates from"
+
+#. wpml-name: 82071a8712bec4a5c57f1bd6d9f7144e
+#: <li class='tab'><a href="#defaults"><?php _e("Default Values", "whmpress") ?></a></li>
+#: <li class='tab'><a href="#currencies"><?php _e("Currencies", "whmpress") ?></a></li>
+#: <li class='tab'><a href="#3rdparty"><?php _e("3rd Party", "whmpress") ?></a></li>
+msgid "3rd Party"
+msgstr "3rd Party"
+
+#. wpml-name: e61f5a6e7d120ebf40f80b5c1b38cefe
+#: <table class="form-table">
+#: <tr valign="top">
+#: <td style="width:30%;" scope="row"><?php _e("Enable logs for searches", "whmpress") ?></td>
+msgid "Enable logs for searches"
+msgstr "Enable logs for searches"
+
+#. wpml-name: b4805a9af05d82889758dda70003cfc6
+#: <div id="SearchOptions">
+#: <h3><?php _e("Search Options", "whmpress") ?></h3>
+msgid "Search Options"
+msgstr "Search Options"
+
+#. wpml-name: 2e6216cce63f157398424e6f1e8764b5
+#: <table class="form-table">
+#: <tr valign="top">
+#: <th scope="row"><?php _e("Show As", "whmpress") ?></th>
+msgid "Show As"
+msgstr "Show As"
+
+#. wpml-name: bb2e52704310b28d8df62319181ae9c7
+#: <table class="form-table">
+#: <tr valign="top">
+#: <th scope="row"><?php _e("Link Text", "whmpress") ?></th>
+msgid "Link Text"
+msgstr "Link Text"
+
+#. wpml-name: b287438fb6a9daa9a086319d945e6cc8
+#: <h3>Domain Search Ajax Result</h3>
+#: <div class="whmp_error">
+#: <p><?php _e("<b>Warning:</b> This short-code is listed only for compatibility with previous versions. It will be removed in v.3.0. Please use domain_search_ajax  on both search box and search results pages.","whmpress"); ?></p>
+msgid "<b>Warning:</b> This short-code is listed only for compatibility with previous versions. It will be removed in v.3.0. Please use domain_search_ajax  on both search box and search results pages."
+msgstr "<b>Warning:</b> This short-code is listed only for compatibility with previous versions. It will be removed in v.3.0. Please use domain_search_ajax  on both search box and search results pages."
+
+#. wpml-name: b9df26e289d0a904da73f534e6b431b1
+#: </tr>
+#: <tr valign="top">
+#: <th scope="row"><?php _e("Search in Extensions", "whmpress") ?></td>
+msgid "Search in Extensions"
+msgstr "Search in Extensions"
+
+#. wpml-name: 522af9064a560fd951d1e2892b8fd176
+#: </tr>
+#: <tr valign="top">
+#: <th scope="row"><?php _e("Show Years", "whmpress") ?></td>
+msgid "Show Years"
+msgstr "Show Years"
+
+#. wpml-name: 11843aa44dcd4a02f96bda140485c7e9
+#: </tr>
+#: <tr valign="top">
+#: <th scope="row"><?php _e("Order Landing Page", "whmpress") ?></td>
+msgid "Order Landing Page"
+msgstr "Order Landing Page"
+
+#. wpml-name: 682b6a4beca74dda04b2cf5e875e657a
+#: </tr>
+#: <tr valign="top">
+#: <th scope="row"><?php _e("Disable Domain Spinning", "whmpress") ?></td>
+msgid "Disable Domain Spinning"
+msgstr "Disable Domain Spinning"
+
+#. wpml-name: 694db2a4243576c492871a486e0862bb
+#: </tr>
+#: <tr valign="top">
+#: <th scope="row"><?php _e("Show Transfer Link", "whmpress") ?></td>
+msgid "Show Transfer Link"
+msgstr "Show Transfer Link"
+
+#. wpml-name: be664a4857eaeb1b2e7ba1620c7e8521
+#: </tr>
+#: <tr valign="top">
+#: <th scope="row"><?php _e("Show WWW Link", "whmpress") ?></td>
+msgid "Show WWW Link"
+msgstr "Show WWW Link"
+
+#. wpml-name: b51e9e69c86c222721ad205676dea29b
+#: <table class="form-table">
+#: <tr valign="top">
+#: <th scope="row"><?php _e("Show WhoIs Link", "whmpress") ?></td>
+msgid "Show WhoIs Link"
+msgstr "Show WhoIs Link"
+
+#. wpml-name: 45b5de8fb2930cf2cc1dc2c6d20bd72a
+#: </tr>
+#: <tr valign="top">
+#: <th scope="row"><?php _e("Button Text", "whmpress") ?></th>
+msgid "Button Text"
+msgstr "Button Text"
+
+#. wpml-name: 68753d36ec0c4d7768b20993268d68d1
+#: <table class="form-table">
+#: <tr valign="top">
+#: <th scope="row"><?php _e("Placeholder", "whmpress") ?></th>
+msgid "Placeholder"
+msgstr "Placeholder"
+
+#. wpml-name: 0c2686f2bab1dc5f3bcbd49002838751
+#: </tr>
+#: <tr valign="top">
+#: <th scope="row"><?php _e("Show Button", "whmpress") ?></th>
+msgid "Show Button"
+msgstr "Show Button"
+
+#. wpml-name: d53ac8bb874f616b4385235a08a96147
+#: <table class="form-table">
+#: <tr valign="top">
+#: <th scope="row"><?php _e("Show Combo", "whmpress") ?></td>
+msgid "Show Combo"
+msgstr "Show Combo"
+
+#. wpml-name: 3b916fc8872fea5743ec9d4b4fee2de3
+#: </tr>
+#: <tr valign="top">
+#: <th scope="row"><?php _e("Show Price", "whmpress") ?></td>
+msgid "Show Price"
+msgstr "Show Price"
+
+#. wpml-name: c4edc01b27dc1bcc00d7d04011d0c3e7
+#: <table class="form-table">
+#: <tr valign="top">
+#: <th scope="row"><?php _e("Billing Cycle", "whmpress") ?></td>
+msgid "Billing Cycle"
+msgstr "Billing Cycle"
+
+#. wpml-name: 9a238ccb855f8e68ee2b58985009e904
+#: </tr>
+#: <tr valign="top">
+#: <th scope="row"><?php _e("Show Disabled Domains", "whmpress") ?></th>
+msgid "Show Disabled Domains"
+msgstr "Show Disabled Domains"
+
+#. wpml-name: bc1ec826fe08915c096ed95047240e94
+#: </tr>
+#: <tr valign="top">
+#: <th scope="row"><?php _e("Show Transfer Price", "whmpress") ?></th>
+msgid "Show Transfer Price"
+msgstr "Show Transfer Price"
+
+#. wpml-name: e536a6727b3fa84401b487d553b85c58
+#: </tr>
+#: <tr valign="top">
+#: <th scope="row"><?php _e("Show Renewel Price", "whmpress") ?></th>
+msgid "Show Renewel Price"
+msgstr "Show Renewel Price"
+
+#. wpml-name: 5c1c9638154e9dc81b237c9f87c91145
+#: </tr>
+#: <tr valign="top">
+#: <th scope="row"><?php _e("Search Placeholder", "whmpress") ?></th>
+msgid "Search Placeholder"
+msgstr "Search Placeholder"
+
+#. wpml-name: 9ea00f10d8488950ad213dad6a39b1ff
+#: </tr>
+#: <tr valign="top">
+#: <th scope="row"><?php _e("Search Label", "whmpress") ?></th>
+msgid "Search Label"
+msgstr "Search Label"
+
+#. wpml-name: 4737a16157c59643b193b318b3d90378
+#: </tr>
+#: <tr valign="top">
+#: <th scope="row"><?php _e("Hide Search", "whmpress") ?></th>
+msgid "Hide Search"
+msgstr "Hide Search"
+
+#. wpml-name: 8e2b1ca7e55dfcf7c2b2a9c5289c00b2
+#: </tr>
+#: <tr valign="top">
+#: <th scope="row"><?php _e("Replace Empty With", "whmpress") ?></th>
+msgid "Replace Empty With"
+msgstr "Replace Empty With"
+
+#. wpml-name: 2be7c14a2c47712057f8a375d7520e45
+#: </tr>
+#: <tr valign="top">
+#: <th scope="row"><?php _e("Replace Zero With", "whmpress") ?></th>
+msgid "Replace Zero With"
+msgstr "Replace Zero With"
+
+#. wpml-name: 4200bec1a461b2488f4fc69e208ae508
+#: </tr>
+#: <tr valign="top">
+#: <th scope="row"><?php _e("Show Hidden", "whmpress") ?></th>
+msgid "Show Hidden"
+msgstr "Show Hidden"
+
+#. wpml-name: 56cb703239c039f9cdf7a95b769679d4
+#: </tr>
+#: <tr valign="top">
+#: <th scope="row"><?php _e("Show number of years", "whmpress") ?></th>
+msgid "Show number of years"
+msgstr "Show number of years"
+
+#. wpml-name: 6fc6ee2b0fcccb8970c1cde759ef0352
+#: </tr>
+#: <tr valign="top">
+#: <th scope="row"><?php _e("Show Currency Suffix", "whmpress") ?></th>
+msgid "Show Currency Suffix"
+msgstr "Show Currency Suffix"
+
+#. wpml-name: 5429d3756abb4f0b49473e8949f8567a
+#: </tr>
+#: <tr valign="top">
+#: <th scope="row"><?php _e("Show Currency Prefix", "whmpress") ?></th>
+msgid "Show Currency Prefix"
+msgstr "Show Currency Prefix"
+
+#. wpml-name: 557421ebaf51c99c8772dc2f591b4c91
+#: </tr>
+#: <tr valign="top">
+#: <th scope="row"><?php _e("Show Decimals As", "whmpress") ?></th>
+msgid "Show Decimals As"
+msgstr "Show Decimals As"
+
+#. wpml-name: 57a0a54c900f41939085bcb552c084b7
+#: </tr>
+#: <tr valign="top">
+#: <th scope="row"><?php _e("Hide Decimals", "whmpress") ?></th>
+msgid "Hide Decimals"
+msgstr "Hide Decimals"
+
+#. wpml-name: a1fa27779242b4902f7ae3bdd5c6d508
+#: <table class="form-table">
+#: <tr valign="top">
+#: <th scope="row"><?php _e("Type", "whmpress") ?></th>
+msgid "Type"
+msgstr "Type"
+
+#. wpml-name: 386c339d37e737a436499d423a77df0c
+#: </tr>
+#: <tr valign="top">
+#: <th scope="row"><?php _e("Currency", "whmpress") ?></th>
+msgid "Currency"
+msgstr "Currency"
+
+#. wpml-name: f42a93cf992f4f7f8a1097e2cb51bbeb
+#: </tr>
+#: <tr valign="top">
+#: <th scope="row"><?php _e("Price/Tax", "whmpress") ?></th>
+msgid "Price/Tax"
+msgstr "Price/Tax"
+
+#. wpml-name: 2fe186e682741efc895cdd976a7a66fa
+#: </tr>
+#: <tr valign="top">
+#: <th scope="row"><?php _e("String for config price", "whmpress") ?></th>
+msgid "String for config price"
+msgstr "String for config price"
+
+#. wpml-name: 633bb513cbaf00c54700afdbed775365
+#: </tr>
+#: <tr valign="top">
+#: <th scope="row"><?php _e("Calculate configurable options", "whmpress") ?></th>
+msgid "Calculate configurable options"
+msgstr "Calculate configurable options"
+
+#. wpml-name: fc76fce6a4d30520489ecab4e771aa6c
+#: </tr>
+#: <tr valign="top">
+#: <th scope="row"><?php _e("Convert price into monthly price", "whmpress") ?></th>
+msgid "Convert price into monthly price"
+msgstr "Convert price into monthly price"
+
+#. wpml-name: 26c8c264871fa960cec4e7fe48aeaa3f
+#: </tr>
+#: <tr valign="top">
+#: <th scope="row"><?php _e("Price/Setup", "whmpress") ?></th>
+msgid "Price/Setup"
+msgstr "Price/Setup"
+
+#. wpml-name: 9c81e09ebdfe7a99d602098683212b53
+#: ?>
+#: 
+#: <span class="description"><?php _e('Hide/Show decimals with price','whmpress');?></span>
+msgid "Hide/Show decimals with price"
+msgstr "Hide/Show decimals with price"
+
+#. wpml-name: 476d0596d5816725df4678d4cb93de4b
+#: ?>
+#: 
+#: <span class="description"><?php _e('Select default billing cycle for price','whmpress');?></span>
+msgid "Select default billing cycle for price"
+msgstr "Select default billing cycle for price"
+
+#. wpml-name: c12a4f3e549e746068cea730a22f7f08
+#: <li class='tab'><a href="#DomainSearchBulk"><?php _e('Domain Search Bulk','whmpress');?></a></li>
+#: <li class='tab'><a href="#DomainWhoIS"><?php _e('Domain WhoIS','whmpress');?></a></li>
+#: <li class='tab'><a href="#OrderLink"><?php _e('Order Link','whmpress');?></a></li>
+msgid "Order Link"
+msgstr "Order Link"
+
+#. wpml-name: 80cdc396f10f746b505ec0cbab1dd2f6
+#: <li class='tab'><a href="#DomainSearchAjaxResult"><?php _e('Domain Search Ajax Result','whmpress');?></a></li>
+#: <li class='tab'><a href="#DomainSearchBulk"><?php _e('Domain Search Bulk','whmpress');?></a></li>
+#: <li class='tab'><a href="#DomainWhoIS"><?php _e('Domain WhoIS','whmpress');?></a></li>
+msgid "Domain WhoIS"
+msgstr "Domain WhoIS"
+
+#. wpml-name: 0995b5f1743fe14827bc6148a77d6f70
+#: <li class='tab'><a href="#DomainSearchAjax"><?php _e('Domain Search Ajax','whmpress');?></a></li>
+#: <li class='tab'><a href="#DomainSearchAjaxResult"><?php _e('Domain Search Ajax Result','whmpress');?></a></li>
+#: <li class='tab'><a href="#DomainSearchBulk"><?php _e('Domain Search Bulk','whmpress');?></a></li>
+msgid "Domain Search Bulk"
+msgstr "Domain Search Bulk"
+
+#. wpml-name: 2f981c8430fd1c0d8ab21bf915f554b9
+#: <li class='tab'><a href="#DomainSearch"><?php _e('Domain Search','whmpress');?></a></li>
+#: <li class='tab'><a href="#DomainSearchAjax"><?php _e('Domain Search Ajax','whmpress');?></a></li>
+#: <li class='tab'><a href="#DomainSearchAjaxResult"><?php _e('Domain Search Ajax Result','whmpress');?></a></li>
+msgid "Domain Search Ajax Result"
+msgstr "Domain Search Ajax Result"
+
+#. wpml-name: 523589e6c18d88cc18e6182b5c64f00a
+#: <li class='tab'><a href="#PricingTable"><?php _e("Pricing Table","whmpress");?></a></li>
+#: <li class='tab'><a href="#DomainSearch"><?php _e('Domain Search','whmpress');?></a></li>
+#: <li class='tab'><a href="#DomainSearchAjax"><?php _e('Domain Search Ajax','whmpress');?></a></li>
+msgid "Domain Search Ajax"
+msgstr "Domain Search Ajax"
+
+#. wpml-name: 675178cd54df251b1f81c8a6573c6ab5
+#: <li class='tab'><a href="#styles"><?php _e("Styles", "whmpress") ?></a></li>
+#: <?php if (function_exists('whmpress_domain_search_ajax_function')): ?>
+#: <li class='tab'><a href="#ajax_domain_search"><?php _e("Domain Search", "whmpress") ?></a></li>
+msgid "Domain Search"
+msgstr "Domain Search"
+
+#. wpml-name: 7456630c7fb330331a1b53f59f3dee99
+#: <li class='tab'><a href="#Combo1"><?php _e("Order Combo","whmpress");?></a></li>
+#: <li class='tab'><a href="#OrderButton"><?php _e("Order Button","whmpress");?></a></li>
+#: <li class='tab'><a href="#PricingTable"><?php _e("Pricing Table","whmpress");?></a></li>
+msgid "Pricing Table"
+msgstr "Pricing Table"
+
+#. wpml-name: 890f82d85a554667f7311756a9934c6e
+#: <li class='tab'><a href="#PriceMatrixDomain"><?php _e("Price Matrix Domain","whmpress");?></a></li>
+#: <li class='tab'><a href="#Combo1"><?php _e("Order Combo","whmpress");?></a></li>
+#: <li class='tab'><a href="#OrderButton"><?php _e("Order Button","whmpress");?></a></li>
+msgid "Order Button"
+msgstr "Order Button"
+
+#. wpml-name: 8e8aab40baad50f4410ad42b88f70ce1
+#: <li class='tab'><a href="#PriceMatrix"><?php _e("Price Matrix","whmpress")?></a></li>
+#: <li class='tab'><a href="#PriceMatrixDomain"><?php _e("Price Matrix Domain","whmpress");?></a></li>
+#: <li class='tab'><a href="#Combo1"><?php _e("Order Combo","whmpress");?></a></li>
+msgid "Order Combo"
+msgstr "Order Combo"
+
+#. wpml-name: 72f9f354c690a87ee1fd0eac5bb99361
+#: <li class='tab'><a href="#DomainPrice1"><?php _e("Domain Price", "whmpress") ?></a></li>
+#: <li class='tab'><a href="#PriceMatrix"><?php _e("Price Matrix","whmpress")?></a></li>
+#: <li class='tab'><a href="#PriceMatrixDomain"><?php _e("Price Matrix Domain","whmpress");?></a></li>
+msgid "Price Matrix Domain"
+msgstr "Price Matrix Domain"
+
+#. wpml-name: ae798375fe68f9689f592b56ce26fa5f
+#: <li class='tab'><a href="#Price1"><?php _e("Price", "whmpress") ?></a></li>
+#: <li class='tab'><a href="#DomainPrice1"><?php _e("Domain Price", "whmpress") ?></a></li>
+#: <li class='tab'><a href="#PriceMatrix"><?php _e("Price Matrix","whmpress")?></a></li>
+msgid "Price Matrix"
+msgstr "Price Matrix"
+
+#. wpml-name: a40cb9f2a1f5332b2d64ede2d172f63e
+#: </div>
+#: <div id="DomainPrice1">
+#: <h3><?php _e("Domain Price", "whmpress") ?></h3>
+msgid "Domain Price"
+msgstr "Domain Price"
+
+#. wpml-name: d29d693432851d9b8f233586912317cf
+#: annually"=>__("Annually","whmpress"),
+#: "quarterly"=>__("Quarterly","whmpress"),
+#: "semiannually"=>__("Semi Annually","whmpress")
+msgid "Semi Annually"
+msgstr "Semi Annually"
+
+#. wpml-name: 9030e39f00132d583da4122532e509e9
+#: $dfieldss = array(          // Deletable fields
+#: "monthly"=>__("Monthly", "whmpress"),
+msgid "Monthly"
+msgstr "Monthly"
+
+#. wpml-name: fb2aa5d6e5e580b61c2ae8c084585e91
+#: <?php $Q = "SELECT `id`,`extension` FROM `".whmp_get_domain_pricing_table_name()."` ORDER BY `order`";
+#: $rows = $wpdb->get_results($Q,ARRAY_A); ?>
+#: <div> <?php echo __('You are selling','whmpress') . count($rows); ?> domain(s)</div>
+msgid "You are selling"
+msgstr "You are selling"
+
+#. wpml-name: 7acdf85c69cc3c5305456a293524386e
+#: <tr>
+#: <td><?php echo $row->id; ?></td>
+#: <td><?php echo $row->name; if ($row->hidden=="on") echo " (<i>". __('Hidden','whmpress') . "<i>)" ?></td>
+msgid "Hidden"
+msgstr "Hidden"
+
+#. wpml-name: 48ffe83bdf5de95ec171a460b4789d55
+#: <th><?php echo __('Domain Available','whmpress');?></th>
+#: <th><?php echo __('Search Time','whmpress');?></th>
+#: <th><?php echo __('From IP','whmpress');?></th>
+msgid "From IP"
+msgstr "From IP"
+
+#. wpml-name: c01a8097453cc3b75b0dee33db70672d
+#: <th><?php echo __('Search Term','whmpress');?></th>
+#: <th><?php echo __('Domain Available','whmpress');?></th>
+#: <th><?php echo __('Search Time','whmpress');?></th>
+msgid "Search Time"
+msgstr "Search Time"
+
+#. wpml-name: f659929bb9b0a6b53912ac431221b917
+#: <tr>
+#: <th><?php echo __('Search Term','whmpress');?></th>
+#: <th><?php echo __('Domain Available','whmpress');?></th>
+msgid "Domain Available"
+msgstr "Domain Available"
+
+#. wpml-name: 5bb5d8366a1c8b919a560ba09247f275
+#: </tr>
+#: <tr>
+#: <th><?php echo __('Search Term','whmpress');?></th>
+msgid "Search Term"
+msgstr "Search Term"
+
+#. wpml-name: cf1128144fc4e54d84dab939191d6e34
+#: <?php endfor; ?>
+#: </span>
+#: <?php echo __('Total Records:','whmpress') . $total_records; ?>
+msgid "Total Records:"
+msgstr "Total Records:"
+
+#. wpml-name: 193cfc9be3b995831c6af2fea6650e60
+#: <tr>
+#: <td colspan="4">
+#: <span style="float: right;"><?php echo __('Page','whmpress') . $paged; ?> of <?php echo $pages ?> -
+msgid "Page"
+msgstr "Page"
+
+#. wpml-name: 147c335c94bb4f74b982a090167758af
+#: <img src="<?php echo WHMP_ADMIN_URL ?>/images/whmp_sliders.jpg" class="response-img left-corner" />
+#: <?php
+#: _e('Comparison Table and Slider are essential part of every web-hosting site.
+msgid "Comparison Table and Slider are essential part of every web-hosting site. \\r\n"
+"                        It helps user to make informed decisions. \\r\n"
+"                        Simply select packages to compare and get a complete comparison table or slider in your desired template.\n"
+""
+msgstr "Comparison Table and Slider are essential part of every web-hosting site. \\r\n"
+"                        It helps user to make informed decisions. \\r\n"
+"                        Simply select packages to compare and get a complete comparison table or slider in your desired template.\n"
+""
+
+#. wpml-name: 66d185b1caa7ae6ba81600678e24cc37
+#: <div class="whmpress_panel">
+#: <div>
+#: <h3><?php _e('WHMCS Pricing Sliders and Comparison Tables','whmpress');?></h3>
+msgid "WHMCS Pricing Sliders and Comparison Tables"
+msgstr "WHMCS Pricing Sliders and Comparison Tables"
+
+#. wpml-name: d721066dc3eec5e204354d03383279e1
+#: <p>
+#: <img src="<?php echo WHMP_ADMIN_URL ?>/images/whmp_ca.jpg" class="response-img left-corner" />
+#: <?php _e('Go one step further, offer your users their WHMCS client area with the same look and feel as your website.
+msgid "Go one step further, offer your users their WHMCS client area with the same look and feel as your website. \\r\n"
+"                    Giving them a feel that they never left your website for their hosting management and website. \\r\n"
+"                    Again offering several Shortcodes for seamless integration with your site.\n"
+""
+msgstr "Go one step further, offer your users their WHMCS client area with the same look and feel as your website. \\r\n"
+"                    Giving them a feel that they never left your website for their hosting management and website. \\r\n"
+"                    Again offering several Shortcodes for seamless integration with your site.\n"
+""
+
+#. wpml-name: 7e3a9ff1c7669a9dbe66e25add60d1bc
+#: <div class="whmpress_panel">
+#: <div>
+#: <h3><?php _e('WHMCS Client Area Integration','whmpress'); ?></h3>
+msgid "WHMCS Client Area Integration"
+msgstr "WHMCS Client Area Integration"
+
+#. wpml-name: ae11a756bf3cc86e2b337c8e531a8f40
+#: <div>
+#: <h3><?php _e("System Info", "whmpress") ?></h3>
+#: <p><?php _e("No system info available", "whmpress") ?>, <a href="admin.php?page=whmp-sync"><?php _e("Please Sync WHMCS", "whmpress") ?></a></p>
+msgid "No system info available"
+msgstr "No system info available"
+
+#. wpml-name: f92965e2c8a7afb3c1b9a5c09a263636
+#: echo "<div class='updated'>";
+#: echo "<h3>" .  _e('Done','whmpress'); . "</h3>";
+msgid "Done"
+msgstr "Done"
+
+#. wpml-name: e90c7d3c0e0a348cbe2433eb3b696ca4
+#: <div class="whmp-main-title"><span class="whmp-title">WHMpress</span> Custom CSS</div>
+#: <?php if (isset($_GET["settings-updated"]) && $_GET["settings-updated"]=="true")
+#: echo "<div class='updated'><p><b>" . __('Success','whmpress') . "</b><br />" . __('CSS saved','whmpress'). "</p></div>"; ?>
+msgid "CSS saved"
+msgstr "CSS saved"
+
+#. wpml-name: 505a83f220c02df2f85c3810cd9ceb38
+#: <div class="whmp-main-title"><span class="whmp-title">WHMpress</span> Custom CSS</div>
+#: <?php if (isset($_GET["settings-updated"]) && $_GET["settings-updated"]=="true")
+#: echo "<div class='updated'><p><b>" . __('Success','whmpress') . "</b><br />" . __('CSS saved','whmpress'). "</p></div>"; ?>
+msgid "Success"
+msgstr "Success"
+
+#. wpml-name: 575f5f86d2c7ea113c6710c1037c4465
+#: <option <?php if ($default_curr==$curr["id"]) echo "selected=selected" ?> value="<?php echo $curr["id"] ?>"><?php echo $curr["code"] ?></option>
+#: <?php endforeach; ?>
+#: </select> <span style="display: none;" id="saving_span"><?php _e("Saving...", "whmpress") ?></span>
+msgid "Saving..."
+msgstr "Saving..."
+
+#. wpml-name: 549b94e8e8a67194638298e75104fb55
+#: <h2><?php _e("Country Redirection", "whmpress") ?></h2>
+#: <p>
+#: <?php _e("Set default currency for specific country. Default currency is", "whmpress") ?>
+msgid "Set default currency for specific country. Default currency is"
+msgstr "Set default currency for specific country. Default currency is"
+
+#. wpml-name: 28077b6dd0355b3515db86e7e4528cee
+#: </style>
+#: <div class="wrap">
+#: <h2><?php _e("Country Redirection", "whmpress") ?></h2>
+msgid "Country Redirection"
+msgstr "Country Redirection"
+
+#. wpml-name: 8d7226fdfd44467a5d8469e9019724de
+#: <td>
+#: <select name="whmp_countries_currencies[currency][]">
+#: <option value=""><?php _e('-- Currency --','whmpress');?></option>
+msgid "-- Currency --"
+msgstr "-- Currency --"
+
+#. wpml-name: 15719f7683f9f08640bedb86df8f5153
+#: </div>
+#: <div id="debug_info">
+#: <h3 class="whmp-sub-head"><?php _e("Debug Info", "whmpress") ?></h3>
+msgid "Debug Info"
+msgstr "Debug Info"
+
+#. wpml-name: d88946b678e4c2f251d4e292e8142291
+#: <li class='tab'><a href='#general'><?php _e("General", "whmpress") ?></a></li>
+#: <li class='tab'><a href="#advanced"><?php _e("Advanced", "whmpress") ?></a></li>
+#: <li class='tab'><a href="#seo"><?php _e("SEO", "whmpress") ?></a></li>
+msgid "SEO"
+msgstr "SEO"
+
+#. wpml-name: 7bf6bfb6f37913f149d723bb1a6087d3
+#: ?>
+#: 
+#: <button class="button" onclick="ImportSettings('')"><i><?php _e('Adjust All Settings','whmpress');?></i></button>
+msgid "Adjust All Settings"
+msgstr "Adjust All Settings"
+
+#. wpml-name: 96927869e9299aa041c2c4fecb2c3f62
+#: else if ($dval=="Submitticket") $dval = __('Submit Ticket','whmpres');
+#: else if ($dval=="Clientarea") $dval = __('Client Area','whmpress');
+#: else if ($dval=="Pwreset") $dval = __('Lost Password Reset','whmpress');
+msgid "Lost Password Reset"
+msgstr "Lost Password Reset"
+
+#. wpml-name: f923d7c6ca33d7dcf415bad44169ecd1
+#: $dval = ucwords($file);
+#: if ($dval=="Serverstatus") $dval = __('Server Status','whmpress');
+#: else if ($dval=="Domainchecker") $dval = __('Domain Checker','whmpress');
+msgid "Domain Checker"
+msgstr "Domain Checker"
+
+#. wpml-name: bd09422fd9b06f731b35c0011ef3012d
+#: $url = $WHMP->set_url($main_url, $file);
+#: $dval = ucwords($file);
+#: if ($dval=="Serverstatus") $dval = __('Server Status','whmpress');
+msgid "Server Status"
+msgstr "Server Status"
+
+#. wpml-name: c7ba095c013f4f2e0a2cb4255df02479
+#: printf ( __('This plugin comes pre-configured for your current theme %1s.
+#: The look and feel of WHMCS client area have been adjusted to match $1s.','whmpress'),$current_theme);
+#: printf ( __('To further adjust the settings click the button(s) below.','whmpress'));
+msgid "To further adjust the settings click the button(s) below."
+msgstr "To further adjust the settings click the button(s) below."
+
+#. wpml-name: 17cf09f133b8a3c5a641d0d2bb372e61
+#: <?php
+#: $current_theme= "(<b>". $theme->Name ."</b>)";
+#: printf ( __('This plugin comes pre-configured for your current theme %1s.
+msgid "This plugin comes pre-configured for your current theme %1s.\\r\n"
+"            The look and feel of WHMCS client area have been adjusted to match $1s.\n"
+""
+msgstr "This plugin comes pre-configured for your current theme %1s.\\r\n"
+"            The look and feel of WHMCS client area have been adjusted to match $1s.\n"
+""
+
+#. wpml-name: 02455f1e2253e38a369488e01c9999cb
+#: foreach($files as $file) {
+#: if (!@unlink($file)) {
+#: echo __("Error occured while deleteing cached files",'whmpress');
+msgid "Error occured while deleteing cached files"
+msgstr "Error occured while deleteing cached files"
+
+#. wpml-name: 9cab17e61b35688ad49ee7e1e82f52b4
+#: 'whmp-dashboard',
+#: '',
+#: __('Search Logs','whmpress'),
+msgid "Search Logs"
+msgstr "Search Logs"
+
+#. wpml-name: 8a12caa666c251397ccca53d2bfbd7df
+#: <?php
+#: $syncwhmcs = "<a href='admin.php?page=whmp-sync'>";
+#: printf(__('WHMpress data not found, Please run %1s Sync WHMCS %2s to use WHMpress','whmpress'),$syncwhmcs,'</a>');
+msgid "WHMpress data not found, Please run %1s Sync WHMCS %2s to use WHMpress"
+msgstr "WHMpress data not found, Please run %1s Sync WHMCS %2s to use WHMpress"
+
+#. wpml-name: 56c149cc22717be37322cd9127e0fc53
+#: <div class="error">
+#: <h3><?php echo __('WHMpress Warning!','whmpress');?></h3>
+#: <p><?php printf(__("No data synced from hosting server, Please run %s to use WHMpress",'whmpress'),"<a href='admin.php?page=whmp-sync'>Sync WHMCS</a>");?></p>
+msgid "No data synced from hosting server, Please run %s to use WHMpress"
+msgstr "No data synced from hosting server, Please run %s to use WHMpress"
+
+#. wpml-name: a19f39e60d21d845554104ecf00b10ab
+#: ?>
+#: <div class="error">
+#: <h3><?php echo __('WHMpress Warning!','whmpress');?></h3>
+msgid "WHMpress Warning!"
+msgstr "WHMpress Warning!"
+
+#. wpml-name: e447abf8baaeefbb7a5df0444403b01f
+#: $buyplugin="<a href='http://codecanyon.net/item/whmpress-whmcs-wordpress-integration-plugin-/9946066' target='_blank'> ";
+#: printf (__('WHMpress not verified, Verify your purchase %1s here. %2s','whmpress'),$dashboard,'</a>');
+#: printf(__('Or you can %1s purchase WHMPress here %2s','whmpress'),$buyplugin,'</a>');
+msgid "Or you can %1s purchase WHMPress here %2s"
+msgstr "Or you can %1s purchase WHMPress here %2s"
+
+#. wpml-name: bfe76516bfc2259820ca3bf11061c83d
+#: $dashboard="<a href='admin.php?page=whmp-dashboard#div2'>";
+#: $buyplugin="<a href='http://codecanyon.net/item/whmpress-whmcs-wordpress-integration-plugin-/9946066' target='_blank'> ";
+#: printf (__('WHMpress not verified, Verify your purchase %1s here. %2s','whmpress'),$dashboard,'</a>');
+msgid "WHMpress not verified, Verify your purchase %1s here. %2s"
+msgstr "WHMpress not verified, Verify your purchase %1s here. %2s"
+
+#. wpml-name: dc3fd488f03d423a04da27ce66274c1b
+#: function whmpress_not_verified() {
+#: ?><div class="error" id="not_whmp">
+#: <h3><?php echo __('Warning!','whmpress');?></h3>
+msgid "Warning!"
+msgstr "Warning!"
+
+#. wpml-name: 01500efd300172ada2be6ab539756852
+#: else if ($dval=="Domainchecker") $dval = __('Domain Checker','whmpress');
+#: else if ($dval=="Submitticket") $dval = __('Submit Ticket','whmpres');
+#: else if ($dval=="Clientarea") $dval = __('Client Area','whmpress');
+msgid "Client Area"
+msgstr "Client Area"
+
+#. wpml-name: 3934dfa8abc2d07bd9fb8716acaae201
+#: <tr>
+#: <td>&nbsp;</td>
+#: <td><?php submit_button( __('Sync WHMCS', "whmpress"), 'primary', 'wpdocs-save-settings', true ); ?></td>
+msgid "Sync WHMCS"
+msgstr "Sync WHMCS"
+
+#. wpml-name: 867113d19fd2f3c2be038935f8227ead
+#: <h2 class="nav-tab-wrapper">
+#: <a class="nav-tab" href="<?php echo admin_url() ?>admin.php?page=whmp-dashboard"><?php echo __('Dashboard','whmpress');?></a>
+#: <a class="nav-tab nav-tab-active" href="<?php echo admin_url() ?>admin.php?page=whmp-services"><?php echo __('Products/Services','whmpress');?></a>
+msgid "Products/Services"
+msgstr "Products/Services"
+
+#. wpml-name: f1d469af7965b11f56e1e79895e03834
+#: //and the number(5) is the user level that gets access
+#: // Icons from http://melchoyce.github.io/dashicons/
+#: add_menu_page(__('WHMpress Dashboard','whmpress'), __('WHMpress','whmpress'), 'manage_options', 'whmp-dashboard', 'whmp_dashboard', WHMP_ADMIN_URL . "/images/whitelogo-16.png" ,'81.69856');
+msgid "WHMpress"
+msgstr "WHMpress"
+
+#. wpml-name: e24343cf48c7b69addd6ef7d476b2c6c
+#: //and the number(5) is the user level that gets access
+#: // Icons from http://melchoyce.github.io/dashicons/
+#: add_menu_page(__('WHMpress Dashboard','whmpress'), __('WHMpress','whmpress'), 'manage_options', 'whmp-dashboard', 'whmp_dashboard', WHMP_ADMIN_URL . "/images/whitelogo-16.png" ,'81.69856');
+msgid "WHMpress Dashboard"
+msgstr "WHMpress Dashboard"
+
